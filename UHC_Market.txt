@@ -1,0 +1,148 @@
+meteor create myapp
+
+cd myapp
+
+*meteor update*
+
+meteor npm install
+
+meteor add session
+
+meteor add accounts-ui accounts-password
+
+meteor add fezvrasta:bootstrap-material-design
+
+meteor add kadira:flow-router
+
+meteor add kadira:blaze-layout
+
+meteor add natestrauser:font-awesome
+
+meteor add msavin:mongol
+
+meteor add aldeed:autoform
+
+meteor add aldeed:collection2
+
+
+fontawesome.io/icons/ *font awesome*
+http://glyphicons.com/
+gitter meteor js
+material.google.com
+
+AdminLTE (tema)
+
+*almenos 5 vistas distintas
+*<span class="bagde">
+
+http://schema.org/WebSite
+http://getbootstrap.com/css/
+http://www.bootply.com/bootstrap-3-migration-guide
+http://getbootstrap.com/components/#glyphicons
+http://glyphicons.com/
+https://www.youtube.com/watch?v=SG7DQyPUKbs
+http://meteortips.com/first-meteor-tutorial/databases-part-1/
+http://www.w3schools.com/bootstrap/bootstrap_modal.asp
+https://redmart.com/
+http://www.w3schools.com/bootstrap/bootstrap_navbar.asp
+http://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_navbar_collapse&stacked=h
+https://www.google.com/fonts
+http://es.lipsum.com/
+https://getbootstrap.com/components/#navbar
+http://www.w3schools.com/cssref/sel_active.asp
+http://glyphicons.bootstrapcheatsheets.com/
+http://jsfiddle.net
+http://tutorialrepublic.com
+www.webtempest.com/meteor-js-autoform-tutorial
+http://www.bootply.com/cirtrus/kVaws3mmuc
+http://librosweb.es/libro/bootstrap_3/capitulo_4/utilidades.html
+
+http://fontawesome.io/examples/
+http://stackoverflow.com/questions/31229247/bootstrap-navbar-button-and-form-alignment
+http://fontawesome.io/icon/th-list/
+http://librosweb.es/libro/bootstrap_3/
+http://getbootstrap.com/2.3.2/base-css.html
+https://material.google.com/style/color.html
+http://www.plugolabs.com/twitter-bootstrap-button-generator/
+http://www.w3schools.com/tags/ref_eventattributes.asp
+https://www.freshdesignweb.com/jquery-css3-menu/
+
+http://learn.shayhowe.com/html-css/positioning-content/
+http://html5doctor.com/the-section-element/
+http://librosweb.es/libro/bootstrap_3/capitulo_6/barras_de_navegacion.html
+http://responsive-nav.com/
+http://tympanus.net/Development/FullscreenForm/
+http://www.w3schools.com/bootstrap/bootstrap_tabs_pills.asp
+
+http://faviconit.com/en
+http://designmodo.com/free-food-icons/
+http://bootsnipp.com/snippets/featured/responsive-sidebar-menu
+http://www.flaticon.com/categories/food
+http://www.w3schools.com/icons/ (Font Awesome Icons)	http://fontawesome.io/icons/
+				(Bootstrap Icons)	http://glyphicons.com/
+				(Google Icons)		https://design.google.com/icons/
+
+http://www.codeply.com/view/hrsE8xxAHP
+http://www.bootply.com/tagged/fixed%20sidebar
+>>> http://www.bootply.com/5OQWzIG7BY
+>>> http://www.bootply.com/vFZM2gt9GK
+
+>>> example: side navbar on collapse into top navbar <<<
+http://stackoverflow.com/questions/22849301/bootstrap-3-side-navbar-on-collapse-into-top-navbar
+
+https://almsaeedstudio.com/
+http://bootsnipp.com
+http://codeplanet.io
+
+https://www.youtube.com/user/LevelUpTuts
+https://www.youtube.com/user/DevTipsForDesigners
+https://www.youtube.com/user/phpacademy
+https://www.youtube.com/user/learncodeacademy
+https://www.youtube.com/user/JREAMdesign
+
+http://www.w3schools.com/bootstrap/bootstrap_images.asp
+http://stackoverflow.com/questions/32961058/how-do-i-add-a-responsive-background-image-in-panel-heading-twiitter-bootstrap
+http://stackoverflow.com/questions/20269692/bootstrap-how-to-center-image-in-panel-heading
+http://stackoverflow.com/questions/18462808/responsive-image-align-center-bootstrap-3
+http://fresh.delfoo.com/
+http://ocado.com
+http://walmart.com
+http://www.petsproducts.com.ar/
+wappalizer(Google Chrome Extension)
+
+
+
+www.github.com
+
+crear nuevo repositorio
+
+lolrater
+
+publico
+
+crear
+
+copiar url
+
+*baboom* shell
+
+
+git status
+ - archivos que hayan cambiado
+
+git diff
+ - lineas que cambiaron
+
+git add <nombre del archivo>
+
+git checkout -- <nombre del archivo>
+
+git commit -m "mensaje"
+
+git push origin master
+
+git pull origin master
+
+9007
+
+http://articulo.mercadolibre.com.ar/MLA-606292939-mini-vestido-de-encaje-de-lycra-elastizado-con-transparencia-_JM
