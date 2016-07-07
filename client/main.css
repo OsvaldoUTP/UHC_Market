@@ -113,18 +113,41 @@ li:hover, div.navbar-header:hover{
 }*/
 /*erixxx*/
 
-#product_description{
+/*PANEEEEEEEEEELLLLLLLLLLL*/
+.panel-body{
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+}
 
+.panel-body > .description, .quantity, .price{
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 /* tres puntos suspensivos para los nombres de los productos a mostrar */
-.panel-body > .name{
+.panel-body > .description{
   height: 40px;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
+}
+
+.panel-body > .quantity {
+  font-weight: 300;
+  font-size: .8em;
+  color: #888;
+  line-height: 1.2em;
+}
+
+.panel-body > .price{
+  padding-top: 20px;
+  padding-bottom: 2px;
+  font-size: 1.2em;
+  font-weight: 700;
 }
 
 /*#product_description{
