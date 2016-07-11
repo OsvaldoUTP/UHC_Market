@@ -6,7 +6,7 @@ Meteor.subscribe('bakery');
 Meteor.subscribe('beverages');
 Meteor.subscribe('food_cupboard');
 Meteor.subscribe('frozen');
-Meteor.subscribe('fruits_vegetables');
+Meteor.subscribe('fruit_vegetables');
 Meteor.subscribe('household');
 Meteor.subscribe('meat_seafood');
 Meteor.subscribe('pets');

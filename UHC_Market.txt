@@ -110,6 +110,46 @@ http://walmart.com
 http://www.petsproducts.com.ar/
 wappalizer(Google Chrome Extension)
 
+http://getbootstrap.com/components/#pagination
+http://stackoverflow.com/questions/15739054/best-pattern-for-pagination-for-meteor
+https://github.com/alethes/meteor-pages
+https://github.com/egtann/meteor-pagination
+https://www.discovermeteor.com/blog/pagination-problems-meteor/
+
+https://github.com/aldeed/meteor-simple-schema
+https://atmospherejs.com/cfs/gridfs
+https://github.com/CollectionFS/Meteor-CollectionFS#image-manipulation
+https://www.youtube.com/watch?v=sfTDHJVmeuU
+https://www.youtube.com/playlist?list=PLLnpHn493BHFYZUSK62aVycgcAouqBt7V
+
+http://grammarist.com/spelling/log-in-login/
+http://grammarist.com/usage/sign-up-vs-signup/
+
+/*--------------------------------------------------------*/
+/*-------------------------Stripe-------------------------*/
+/*--------------------------------------------------------*/
+1) Creating card token: https://youtu.be/GdPfBvFTOFg
+2) Charging card token: https://youtu.be/XrrLE-XxUjQ
+3) Creating a customer: https://youtu.be/CIVwSphtyxw
+4) Getting customer details: https://youtu.be/bLJ30Db6D6k
+5) Charging a customer: https://youtu.be/-Op2XAvYPjo
+
+>>> Support File <<<
+Starter project:https://github.com/youkidsgitoffmylawn/Stripe-meteor-starter
+One time payment finished: https://github.com/youkidsgitoffmylawn/Stripe-meteor-single-finished
+Save customer starter: https://github.com/youkidsgitoffmylawn/Stripe-meteor-customer-starter
+Save customer finished: https://github.com/youkidsgitoffmylawn/Stripe-meteor-customer-finished
+/*--------------------------------------------------------*/
+
+http://css3.bradshawenterprises.com/animating_height/
+http://jsfiddle.net/6n6co9kx/
+http://www.w3schools.com/css/tryit.asp?filename=trycss3_transition1
+
+http://tympanus.net/Development/SidebarTransitions/
+http://tympanus.net/Development/TextInputEffects/index.html
+http://tympanus.net/Development/ButtonStylesInspiration/
+http://tympanus.net/Development/PseudoElementsAnimationsTransitions/index2.html (home page)
+http://tympanus.net/Tutorials/CircleHoverEffects/index.html (integrants)
 
 
 www.github.com

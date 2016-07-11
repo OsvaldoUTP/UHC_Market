@@ -1,107 +1,139 @@
 ﻿if (Alcohol.find().count() === 0) {
   Alcohol.insert({
     _id: "alcohol_001",
-    name: "Lucid",
-    description: "Lucid Absinthe Supérieure",
-    price: "$80.00"
+    name: "Lucid Absinthe Supérieure",
+    brand: "Lucid",
+    quantity: "750 ml",
+    description: "Lucid is the first genuine absinthe made with real Grande Wormwood to be legally available in the United States in over 95 years.",
+    price: "80.00"
   });
 
   Alcohol.insert({
     _id: "alcohol_002",
-    name: "Bacardi",
-    description: "Bacardi 151",
-    price: "$70.00"
+    name: "Bacardi 151",
+    brand: "Bacardi",
+    quantity: "750 ml",
+    description: "Bacardi 151 is a brand of highly alcoholic rum made by Bacardi Limited of Hamilton, Bermuda. It is named for its alcohol proof level of 151, that is, 75.5% alcohol by volume.",
+    price: "70.00"
   });
 
   Alcohol.insert({
     _id: "alcohol_003",
-    name: "Bailey's",
-    description: "Bailey's The Original",
-    price: "$40.00"
+    name: "Bailey's The Original Irish Cream",
+    brand: "Bailey's",
+    quantity: "750 ml",
+    description: "This rich, indulgent liquid is truly a phenomenon in chocolate - turning the sensory experience of eating chocolate into a decadent drink. Bailey's chocolat luxe is a ground breaking innovation fusing real belgian chocolate with alcohol, resulting in a multi-sensory experience that tastes just like molten chocolate.",
+    price: "40.00"
   });
 
   Alcohol.insert({
     _id: "alcohol_004",
-    name: "Corona Extra",
-    description: "La cerveza más fina",
-    price: "$24.00"
+    name: "Corona Extra Beer",
+    brand: "Corona",
+    quantity: "355 ml",
+    description: "Corona is a premium beer, classic and authentic, recognized worldwide for its high quality, refreshing taste and image.",
+    price: "2.75"
   });
 
   Alcohol.insert({
     _id: "alcohol_005",
-    name: "Red Stripe",
-    description: "Jamaican Style Lager",
-    price: "$30.00"
+    name: "Red Stripe Jamaican Style Lager",
+    brand: "Red Stripe",
+    quantity: "330 ml",
+    description: "Red Stripe Jamaican Lager is a golden, crisp premium imported lager. There is simply nothing else like it's refreshing flavour and refreshing attitude.",
+    price: "2.50"
   });
 
   Alcohol.insert({
     _id: "alcohol_006",
-    name: "GIN",
-    description: "GIN The Lakes",
-    price: "$25.00"
+    name: "GIN The Lakes",
+    brand: "GIN",
+    quantity: "700 ml",
+    description: "Big, clear fresh citrus, fruity and floral. Complex and vibrant.",
+    price: "29.75"
   });
 
   Alcohol.insert({
     _id: "alcohol_007",
     name: "Kahlúa",
-    description: "Kahlúa Licor Delicioso",
-    price: "$27.00"
+    description: "",
+    name: "Kahlúa Original Coffee Liqueur",
+    brand: "Kahlúa",
+    quantity: "750 ml",
+    description: "Its deep brown color is attractive and deep. Kahlúa Original Coffee Liqueur offers enticing scents of bittersweet coffee bean and roasted chestnut and multilayered flavors of black coffee and sweet butter.",
+    price: "24.75"
   });
 
   Alcohol.insert({
     _id: "alcohol_008",
-    name: "Miller",
-    description: "Miller Genuine Draft",
-    price: "$24.00"
+    name: "Miller Genuine Draft",
+    brand: "Miller",
+    quantity: "355 ml",
+    description: "Smooth and easy-to-drink, Miller Genuine Draft is 4x cold filtered and never heat pasteurized. This combination of premium ingredients and a unique brewing process delivers a beautiful golden coloured beer in a clear bottle.",
+    price: "2.00"
   });
 
   Alcohol.insert({
     _id: "alcohol_009",
-    name: "Ron Abuelo",
-    description: "Ron Abuelo Añejo",
-    price: "$13.00"
+    name: "Ron Abuelo Añejo",
+    brand: "Varela Hnos S.A.",
+    quantity: "750 ml",
+    description: "Ron Abuelo Añejo, our house specialty, is rum that is richly aged in white oak barrels. Produced from the fermentation of the juice of thousands units of sugarcane, we have utilized cutting edge technical procedures and the experience of the rum making tradition in its aging and production.",
+    price: "12.50"
   });
 
   Alcohol.insert({
     _id: "alcohol_010",
-    name: "Don Simon",
-    description: "Don Simon Sangría",
-    price: "$10.00"
+    name: "Don Simon Sangría",
+    brand: "Don Simon",
+    quantity: "1 L",
+    description: "Drink made from Spanish red wine. No sparkling. It does not contain artificial colorings or sweeteners. Store it in a cool place.",
+    price: "9.75"
   });
 
   Alcohol.insert({
     _id: "alcohol_011",
     name: "Seco Herreraro",
-    description: "Seco Herreraro Varela Hnos.",
-    price: "$6.00"
+    brand: "Varela Hnos S.A.",
+    quantity: "750 ml",
+    description: "The production process utilizes sugarcane that has been grown in the Pesé Valley in the Republic of Panama that after reaching complete ripeness is processed until an exquisite juice is obtained, which is fermented by the action of specific yeasts selected to produce an excellent quality alcohol that is extra neutral.",
+    price: "6.00"
   });
 
   Alcohol.insert({
     _id: "alcohol_012",
-    name: "José Cuervo",
-    description: "Gold Tequila Dorée",
-    price: "$20.00"
+    name: "José Cuervo Especial Gold Tequila Dorée",
+    brand: "José Cuervo",
+    quantity: "1.75 L",
+    description: "José Cuervo Especial gets its distinctive golden colour and smooth mellow taste from resting in oak casks. Drink neat, on the rocks or as a base for a superior Margarita.",
+    price: "19.50"
   });
 
   Alcohol.insert({
     _id: "alcohol_013",
-    name: "Triple Sec",
-    description: "Dekuyper Triple Sec",
-    price: "$14.00"
+    name: "Dekuyper Triple Sec",
+    brand: "Dekuyper",
+    quantity: "750 ml",
+    description: "This orange-flavored liqueur is the essential ingredient in almost any margarita.",
+    price: "14.75"
   });
 
   Alcohol.insert({
     _id: "alcohol_014",
-    name: "Concha y Toro",
-    description: "Vino Reservado",
-    price: "$40.00"
+    name: "Vino Concha y Toro Merlot Reservado",
+    brand: "Concha y Toro",
+    quantity: "750 ml",
+    description: "The color of the wine is a deep red with great intensity. On the nose, the wine shows delicious hints of plums and herbs. This Merlot reveals hints of chocolate and spice, while integrating perfectly with the dark fruit flavors. The wine is smooth with great structure.",
+    price: "40.00"
   });
 
   Alcohol.insert({
     _id: "alcohol_015",
-    name: "Absolut Vodka",
-    description: "Country of Sweden",
-    price: "$11.00"
+    name: "Absolut Vodka Country of Sweden",
+    brand: "Absolut Vodka",
+    quantity: "700 ml",
+    description: "Absolut Vodka is a Swedish vodka made exclusively from natural ingredients, and unlike some other vodkas, it doesn’t contain any added sugar. In fact Absolut is as clean as vodka can be.",
+    price: "12.50"
   });
 }
 
@@ -112,7 +144,7 @@ if (Baby.find().count() === 0) {
     brand: "Dettol",
     quantity: "50 per pack",
     description: "Dettol Anti-Bacterial Wet Wipes kill 99.9% of harmful germs and protect anytime, anywhere!",
-    price: "$5.25"
+    price: "5.25"
   });
 
   Baby.insert({
@@ -121,7 +153,7 @@ if (Baby.find().count() === 0) {
     brand: "Johnson's Baby",
     quantity: "80 per pack",
     description: "The new gentle way to clean baby's skin where it's most needed - on hands and face and around the eyes.",
-    price: "$4.50"
+    price: "4.50"
   });
 
   Baby.insert({
@@ -130,7 +162,7 @@ if (Baby.find().count() === 0) {
     brand: "Pigeon",
     quantity: "70 per pack",
     description: "Pigeon Baby have a special Moisturizing Formula with Lanolin to create a natural barrier to protect baby's skin from diaper irritation.",
-    price: "$4.75"
+    price: "4.75"
   });
 
   Baby.insert({
@@ -139,7 +171,7 @@ if (Baby.find().count() === 0) {
     brand: "Pampers",
     quantity: "56 per pack",
     description: "Pampers Baby Fresh wipes have a refreshing scent and are hypoallergenic.",
-    price: "$5.00"
+    price: "5.00"
   });
 
   Baby.insert({
@@ -148,7 +180,7 @@ if (Baby.find().count() === 0) {
     brand: "Pampers",
     quantity: "42 per pack",
     description: "Pampers Baby Dry Pants provides 360 degrees slim fit, it fits the baby comfortably no matter how baby moves during day/night.",
-    price: "$13.50"
+    price: "13.50"
   });
 
   Baby.insert({
@@ -157,7 +189,7 @@ if (Baby.find().count() === 0) {
     brand: "Pampers",
     quantity: "46 per pack",
     description: "Pampers Baby Dry Pants provides 360 degrees slim fit, it fits the baby comfortably no matter how baby moves during day/night.",
-    price: "$15.50"
+    price: "15.50"
   });
 
   Baby.insert({
@@ -166,7 +198,7 @@ if (Baby.find().count() === 0) {
     brand: "Pampers",
     quantity: "36 per pack",
     description: "Pampers Baby Dry Pants provides 360 degrees slim fit, it fits the baby comfortably no matter how baby moves during day/night.",
-    price: "$17.50"
+    price: "17.50"
   });
 
   Baby.insert({
@@ -175,7 +207,7 @@ if (Baby.find().count() === 0) {
     brand: "Pampers",
     quantity: "28 per pack",
     description: "Pampers Baby Dry Pants provides 360 degrees slim fit, it fits the baby comfortably no matter how baby moves during day/night.",
-    price: "$19.50"
+    price: "19.50"
   });
 
   Baby.insert({
@@ -184,7 +216,7 @@ if (Baby.find().count() === 0) {
     brand: "Huggies",
     quantity: "24 per pack",
     description: "Huggies Ultra Diapers are clinically proven to help reduce diaper rash. They are infused with skin friendly natural ingredients such as Aloe Vera, Vitamin E, and Chamomile extracts.",
-    price: "$9.00"
+    price: "9.00"
   });
 
   Baby.insert({
@@ -193,7 +225,7 @@ if (Baby.find().count() === 0) {
     brand: "Huggies",
     quantity: "70 per pack",
     description: "Huggies Ultra Diapers are clinically proven to help reduce diaper rash. They are infused with skin friendly natural ingredients such as Aloe Vera, Vitamin E, and Chamomile extracts.",
-    price: "$24.50"
+    price: "24.50"
   });
 
   Baby.insert({
@@ -202,7 +234,7 @@ if (Baby.find().count() === 0) {
     brand: "Huggies",
     quantity: "64 per pack",
     description: "Huggies Ultra Diapers are clinically proven to help reduce diaper rash. They are infused with skin friendly natural ingredients such as Aloe Vera, Vitamin E, and Chamomile extracts.",
-    price: "$24.50"
+    price: "24.50"
   });
 
   Baby.insert({
@@ -211,7 +243,7 @@ if (Baby.find().count() === 0) {
     brand: "Huggies",
     quantity: "54 per pack",
     description: "Huggies Ultra Diapers are clinically proven to help reduce diaper rash. They are infused with skin friendly natural ingredients such as Aloe Vera, Vitamin E, and Chamomile extracts.",
-    price: "$24.50"
+    price: "24.50"
   });
 
   Baby.insert({
@@ -220,7 +252,7 @@ if (Baby.find().count() === 0) {
     brand: "Huggies",
     quantity: "48 per pack",
     description: "Huggies Ultra Diapers are clinically proven to help reduce diaper rash. They are infused with skin friendly natural ingredients such as Aloe Vera, Vitamin E, and Chamomile extracts.",
-    price: "$24.50"
+    price: "24.50"
   });
 
   Baby.insert({
@@ -229,7 +261,7 @@ if (Baby.find().count() === 0) {
     brand: "Pigeon",
     quantity: "100 per pack",
     description: "Pigeon Diaper Liners are as soft as cotton and contain neither bonding agents nor germicides.",
-    price: "$10.50"
+    price: "10.50"
   });
 
   Baby.insert({
@@ -238,7 +270,7 @@ if (Baby.find().count() === 0) {
     brand: "Gerber",
     quantity: "227 g",
     description: "Fortified infant cereal provides big nutrition for tiny tummies. They are designed to provide essential nutrients in a small serving.",
-    price: "$5.25"
+    price: "5.25"
   });
 
   Baby.insert({
@@ -247,7 +279,7 @@ if (Baby.find().count() === 0) {
     brand: "Gerber",
     quantity: "227 g",
     description: "Fortified infant cereal provides big nutrition for tiny tummies. They are designed to provide essential nutrients in a small serving.",
-    price: "$5.25"
+    price: "5.25"
   });
 
   Baby.insert({
@@ -256,7 +288,7 @@ if (Baby.find().count() === 0) {
     brand: "Gerber",
     quantity: "227 g",
     description: "Fortified infant cereal provides big nutrition for tiny tummies. They are designed to provide essential nutrients in a small serving.",
-    price: "$5.25"
+    price: "5.25"
   });
 
   Baby.insert({
@@ -265,7 +297,7 @@ if (Baby.find().count() === 0) {
     brand: "Gerber",
     quantity: "227 g",
     description: "Fortified infant cereal provides big nutrition for tiny tummies. They are designed to provide essential nutrients in a small serving.",
-    price: "$5.25"
+    price: "5.25"
   });
 
   Baby.insert({
@@ -274,7 +306,7 @@ if (Baby.find().count() === 0) {
     brand: "Nestle",
     quantity: "250 g",
     description: "CERELAC Infant Cereal Multigrain & Garden Vegetables is made with whole grains and contains chunkier pieces of tomato, corn and pea.",
-    price: "$5.75"
+    price: "5.75"
   });
 
   Baby.insert({
@@ -283,7 +315,7 @@ if (Baby.find().count() === 0) {
     brand: "Nestle",
     quantity: "250 g",
     description: "CERELAC Infant Cereal Multigrain & Garden Vegetables is made with whole grains and contains chunkier pieces of tomato, corn and pea.",
-    price: "$5.75"
+    price: "5.75"
   });
 
   Baby.insert({
@@ -292,7 +324,7 @@ if (Baby.find().count() === 0) {
     brand: "Nestle",
     quantity: "250 g",
     description: "CERELAC Infant Cereal Multigrain & Garden Vegetables is made with whole grains and contains chunkier pieces of tomato, corn and pea.",
-    price: "$5.75"
+    price: "5.75"
   });
 
   Baby.insert({
@@ -301,7 +333,7 @@ if (Baby.find().count() === 0) {
     brand: "Nestle",
     quantity: "225 g",
     description: "CERELAC Infant Cereal Multigrain & Garden Vegetables is made with whole grains and contains chunkier pieces of tomato, corn and pea.",
-    price: "$5.75"
+    price: "5.75"
   });
 
   Baby.insert({
@@ -310,7 +342,7 @@ if (Baby.find().count() === 0) {
     brand: "Nestle",
     quantity: "250 g",
     description: "CERELAC Infant Cereal Multigrain & Garden Vegetables is made with whole grains and contains chunkier pieces of tomato, corn and pea.",
-    price: "$5.75"
+    price: "5.75"
   });
 
   Baby.insert({
@@ -319,7 +351,7 @@ if (Baby.find().count() === 0) {
     brand: "Nestle",
     quantity: "250 g",
     description: "CERELAC Infant Cereal Multigrain & Garden Vegetables is made with whole grains and contains chunkier pieces of tomato, corn and pea.",
-    price: "$5.75"
+    price: "5.75"
   });
 
   Baby.insert({
@@ -328,7 +360,7 @@ if (Baby.find().count() === 0) {
     brand: "Nestle",
     quantity: "250 g",
     description: "CERELAC Infant Cereal Multigrain & Garden Vegetables is made with whole grains and contains chunkier pieces of tomato, corn and pea.",
-    price: "$5.75"
+    price: "5.75"
   });
 
   Baby.insert({
@@ -337,7 +369,7 @@ if (Baby.find().count() === 0) {
     brand: "Nestle",
     quantity: "800 g",
     description: "NAN Gro 3 with Protect Grow contains key nutrients in a concentrated form to fulfill the specific nutritional needs of older infants.",
-    price: "$29.50"
+    price: "29.50"
   });
 
   Baby.insert({
@@ -346,7 +378,7 @@ if (Baby.find().count() === 0) {
     brand: "Nestle",
     quantity: "800 g",
     description: "NAN PRO 2 is a scientifically-developed premium follow-up milk that babies can grow up with and love.",
-    price: "$34.50"
+    price: "34.50"
   });
 
   Baby.insert({
@@ -355,7 +387,7 @@ if (Baby.find().count() === 0) {
     brand: "Nestle",
     quantity: "800 g",
     description: "NAN H.A. 3 with Protect Grow is a premium junior hypoallergenic formula specially designed for older infants, 10 months old and above.",
-    price: "$39.50"
+    price: "39.50"
   });
 
   Baby.insert({
@@ -364,7 +396,7 @@ if (Baby.find().count() === 0) {
     brand: "Nestle",
     quantity: "800 g",
     description: "NAN H.A. 2 with Protect Plus is a premium hypoallergenic formula for babies after 6 months, as the liquid part of the diet during and after weaning.",
-    price: "$44.50"
+    price: "44.50"
   });
 
   Baby.insert({
@@ -373,7 +405,7 @@ if (Baby.find().count() === 0) {
     brand: "Enfagrow",
     quantity: "900 g",
     description: "Enfagrow A+ Stage 3 with DHA Plus is designed to provide an increased DHA level of 78%.",
-    price: "$44.50"
+    price: "44.50"
   });
 
   Baby.insert({
@@ -382,7 +414,7 @@ if (Baby.find().count() === 0) {
     brand: "Enfagrow",
     quantity: "900 g",
     description: "Enfagrow A+ Stage 4 Original Growing Up Milk is formulated with Triple Protection Guard and is formulated with 4 times more DHA.",
-    price: "$39.50"
+    price: "39.50"
   });
 
   Baby.insert({
@@ -391,7 +423,7 @@ if (Baby.find().count() === 0) {
     brand: "Enfagrow",
     quantity: "900 g",
     description: "Enfagrow A+ Stage 5 is formulated with Triple Protection Guard, a unique blend of nutrients including DHA, Prebiotics, Zinc, Iron, Vitamin A, Vitamin C and Vitamin E.",
-    price: "$34.50"
+    price: "34.50"
   });
 
   Baby.insert({
@@ -400,7 +432,7 @@ if (Baby.find().count() === 0) {
     brand: "Enfamil",
     quantity: "900 g",
     description: "Enfamil A+ Stage 2 Follow-On Formula is nutritionally balanced for babies 6 months and older.",
-    price: "$49.50"
+    price: "49.50"
   });
 
   Baby.insert({
@@ -409,7 +441,7 @@ if (Baby.find().count() === 0) {
     brand: "Johnson's",
     quantity: "800 ml",
     description: "Johnson's baby shampoo's unique NO MORE TEARS formula is as gentle to the eyes as pure water.",
-    price: "$5.75"
+    price: "5.75"
   });
 
   Baby.insert({
@@ -418,7 +450,7 @@ if (Baby.find().count() === 0) {
     brand: "Johnson's",
     quantity: "300 ml",
     description: "Johnson's Baby Oil forms a silky barrier on baby's skin to help prevent excess moisture loss.",
-    price: "$6.25"
+    price: "6.25"
   });
 
   Baby.insert({
@@ -427,7 +459,7 @@ if (Baby.find().count() === 0) {
     brand: "Johnson's",
     quantity: "500 ml",
     description: "Johnson's Baby Lotion has a Clinically Proven Mild formula enhanced with skin moisturizers, to help retain skins moisture, leaving your baby's skin softer and smoother.",
-    price: "$6.75"
+    price: "6.75"
   });
 
   Baby.insert({
@@ -436,7 +468,7 @@ if (Baby.find().count() === 0) {
     brand: "Johnson's",
     quantity: "2 x 500 g",
     description: "Rely on Johnson's Baby Powder's trusted formula for the comfort and gentle protection of your baby.",
-    price: "$4.50"
+    price: "4.50"
   });
 
   Baby.insert({
@@ -445,7 +477,7 @@ if (Baby.find().count() === 0) {
     brand: "Pigeon",
     quantity: "1 per pack",
     description: "Pigeon Training Toothbrush with soft bristles to help clean baby's teeth and gum gently.",
-    price: "$8.50"
+    price: "8.50"
   });
 
   Baby.insert({
@@ -454,7 +486,7 @@ if (Baby.find().count() === 0) {
     brand: "Pigeon",
     quantity: "200 per pack",
     description: "Pigeon Cotton Swabs have an extra thin paper stem and are safe for use on your baby.",
-    price: "$3.50"
+    price: "3.50"
   });
 
   Baby.insert({
@@ -463,7 +495,7 @@ if (Baby.find().count() === 0) {
     brand: "L'Oreal Kids",
     quantity: "265 ml",
     description: "L'Oreal Kids Grape Conditioner nourishes, conditions and detangles hair.",
-    price: "$7.50"
+    price: "7.50"
   });
 
   Baby.insert({
@@ -472,7 +504,7 @@ if (Baby.find().count() === 0) {
     brand: "L'Oreal Kids",
     quantity: "265 ml",
     description: "L'Oreal Kids Swim & Sport Shampoo is an extra gentle, 2-in-1 shampoo perfect for active kids.",
-    price: "$7.50"
+    price: "7.50"
   });
 
   Baby.insert({
@@ -481,7 +513,7 @@ if (Baby.find().count() === 0) {
     brand: "L'Oreal Kids",
     quantity: "265 ml",
     description: "L'Oreal Kids 2-in-1 Strawberry Shampoo helps prevent split ends and conditions hair.",
-    price: "$7.50"
+    price: "7.50"
   });
 
   Baby.insert({
@@ -490,7 +522,7 @@ if (Baby.find().count() === 0) {
     brand: "L'Oreal Kids",
     quantity: "265 ml",
     description: "L'Oreal Kids 2-in-1 Blueberry Shampoo helps prevent split ends and conditions hair.",
-    price: "$7.50"
+    price: "7.50"
   });
 
   Baby.insert({
@@ -499,7 +531,7 @@ if (Baby.find().count() === 0) {
     brand: "L'Oreal Kids",
     quantity: "265 ml",
     description: "L'Oreal Kids 2-in-1 Orange Mango Shampoo helps prevent split ends and conditions hair.",
-    price: "$7.50"
+    price: "7.50"
   });
 
   Baby.insert({
@@ -508,7 +540,7 @@ if (Baby.find().count() === 0) {
     brand: "Desitin",
     quantity: "56 g",
     description: "Desitin Rapid Relief Creamy Diaper Rash Cream instantly forms a protective layer on your baby's skin to soothe and relieve rash discomfort, providing relief from first use.",
-    price: "$12.00"
+    price: "12.00"
   });
 
   Baby.insert({
@@ -517,7 +549,7 @@ if (Baby.find().count() === 0) {
     brand: "Desitin",
     quantity: "56 g",
     description: "The rich, thick formula of Desitin Maximum Strength contains the maximum level of Zinc Oxide to immediately form a protective barrier on skin, to promote healing and soothe rash discomfort.",
-    price: "$12.00"
+    price: "12.00"
   });
 
   Baby.insert({
@@ -526,7 +558,7 @@ if (Baby.find().count() === 0) {
     brand: "Vicks",
     quantity: "50 g",
     description: "Soothing baby care, essential oils for comfort. Gentle Vicks formula specially developed for babies from 3months.",
-    price: "$5.50"
+    price: "5.50"
   });
 
   Baby.insert({
@@ -535,7 +567,7 @@ if (Baby.find().count() === 0) {
     brand: "Philips Avent",
     quantity: "266 ml",
     description: "3 Bottles. 266ML. Newborn flow nipple. 0M+",
-    price: "$29.50"
+    price: "29.50"
   });
 
   Baby.insert({
@@ -544,7 +576,7 @@ if (Baby.find().count() === 0) {
     brand: "Pigeon",
     quantity: "160 ml",
     description: "PP Bottle: made from Polypropylene (PP) material, this bottle is durable and light-weight, ideal for both indoor and outdoor use.",
-    price: "$10.50"
+    price: "10.50"
   });
 
   Baby.insert({
@@ -553,7 +585,7 @@ if (Baby.find().count() === 0) {
     brand: "Evenflo",
     quantity: "125 ml",
     description: "Standard nipple shape. Micro Air Vents in nipple reduce air in baby's tummy. Custom Flow nipple - Flow responds to baby's pressure.",
-    price: "$5.50"
+    price: "5.50"
   });
 }
 
@@ -565,7 +597,7 @@ if (Bakery.find().count() === 0) {
     type: "Bread",
     brand: "Gardenia",
     description: "Baked from high protein flour and enriched with vitamins and minerals. Especially popular with bigger families, it's high in vitamins B1, B2, B3, Calcium and Iron.",
-    price: "$2.50"
+    price: "2.50"
   });
 
   Bakery.insert({
@@ -575,7 +607,7 @@ if (Bakery.find().count() === 0) {
     type: "Bread",
     brand: "Gardenia",
     description: "This bread is high in fibre and yet soft and delicious. Made with 50% wholemeal flour, high in vitamins B1, B2, B3, Calcium and Iron.",
-    price: "$2.50"
+    price: "2.50"
   });
 
   Bakery.insert({
@@ -585,7 +617,7 @@ if (Bakery.find().count() === 0) {
     type: "Bread",
     brand: "Gardenia",
     description: "Baked from all natural whole meal flour for a high fiber content. Made from 80% whole meal flour.",
-    price: "$3.75"
+    price: "3.75"
   });
 
   Bakery.insert({
@@ -595,7 +627,7 @@ if (Bakery.find().count() === 0) {
     type: "Bread",
     brand: "Gardenia",
     description: "Baked from high protein flour and enriched with vitamins and minerals. High in vitamins B1, B2, B3, Calcium and Iron.",
-    price: "$2.00"
+    price: "2.00"
   });
 
   Bakery.insert({
@@ -605,7 +637,7 @@ if (Bakery.find().count() === 0) {
     type: "Bread",
     brand: "Gardenia",
     description: "Laden with 35% of top gradesun-dried California raisins that are both delicious and nutritious.",
-    price: "$3.25"
+    price: "3.25"
   });
 
   Bakery.insert({
@@ -615,7 +647,7 @@ if (Bakery.find().count() === 0) {
     type: "Bread",
     brand: "Gardenia",
     description: "Contains the same fiber content as whole meal bread yet retains the softness of white bread.",
-    price: "$2.50"
+    price: "2.50"
   });
 
   Bakery.insert({
@@ -625,7 +657,7 @@ if (Bakery.find().count() === 0) {
     type: "Bread",
     brand: "Gardenia",
     description: "A hearty and wholesome, golden-crusted loaf with 8 types of grains (oat, sunflower seed, linseed, soya grit, corn grit, millet, sesame and wheat germ).",
-    price: "$3.25"
+    price: "3.25"
   });
 
   Bakery.insert({
@@ -635,7 +667,7 @@ if (Bakery.find().count() === 0) {
     type: "Bread",
     brand: "Gardenia",
     description: "Hamburger buns freshly baked with 20% superfine whole meal flour.",
-    price: "$1.75"
+    price: "1.75"
   });
 
   Bakery.insert({
@@ -645,7 +677,7 @@ if (Bakery.find().count() === 0) {
     type: "Bread",
     brand: "Gardenia",
     description: "Made from 50% super fine wholemeal flour, no artificial flavouring and colouring, and no cholesterol and trans fat.",
-    price: "$2.25"
+    price: "2.25"
   });
 
   Bakery.insert({
@@ -655,7 +687,7 @@ if (Bakery.find().count() === 0) {
     type: "Bread",
     brand: "Gardenia",
     description: "Hotdog buns freshly baked with 20% superfine whole meal flour. No trans-fat.",
-    price: "$1.75"
+    price: "1.75"
   });
 
   Bakery.insert({
@@ -665,7 +697,7 @@ if (Bakery.find().count() === 0) {
     type: "Bread",
     brand: "Gardenia",
     description: "Crispy on the outside, chewy and moist inside. Whet your appetite for sandwiches with freshly baked artisan sandwich breads from Gardenia.",
-    price: "$2.25"
+    price: "2.25"
   });
 
   Bakery.insert({
@@ -675,7 +707,7 @@ if (Bakery.find().count() === 0) {
     type: "Bread",
     brand: "Gardenia",
     description: "Baked with the choicest selection of bananas and a generous serving of walnuts to add crunchiness to the taste.",
-    price: "$3.25"
+    price: "3.25"
   });
 
   Bakery.insert({
@@ -685,7 +717,7 @@ if (Bakery.find().count() === 0) {
     type: "Bread",
     brand: "Gardenia",
     description: "Filled with lots of seedless California raisins. Tasty and fun to eat. No trans-fat.",
-    price: "$2.25"
+    price: "2.25"
   });
 
   Bakery.insert({
@@ -695,7 +727,7 @@ if (Bakery.find().count() === 0) {
     type: "Bread",
     brand: "Gardenia",
     description: "A traditional and light baguette. It is lightly saltish and tasty. 2 pieces inside.",
-    price: "$2.00"
+    price: "2.00"
   });
 
   Bakery.insert({
@@ -705,7 +737,7 @@ if (Bakery.find().count() === 0) {
     type: "Bread",
     brand: "Gardenia",
     description: "A delicious and tasty loaf packed with walnuts, sunflower seeds and linseeds.",
-    price: "$3.25"
+    price: "3.25"
   });
 
   Bakery.insert({
@@ -715,7 +747,7 @@ if (Bakery.find().count() === 0) {
     type: "Bread",
     brand: "Gardenia",
     description: "Great tasty bread with the goodness of bran, wheat grain and malt. High in vitamins B1, B2, B3, Calcium and Iron.",
-    price: "$2.25"
+    price: "2.25"
   });
 
   Bakery.insert({
@@ -725,7 +757,7 @@ if (Bakery.find().count() === 0) {
     type: "Bread",
     brand: "Gardenia",
     description: "A traditional crusty wholemeal loaf. Its light and rustic taste is appealing to the palate.",
-    price: "$3.25"
+    price: "3.25"
   });
 
   Bakery.insert({
@@ -735,7 +767,7 @@ if (Bakery.find().count() === 0) {
     type: "Bread",
     brand: "Gardenia",
     description: "Four pieces of flat, rectangular shaped bread with Mediterranean flavour, suitable to be enjoyed as sandwiches or consumed with soup.",
-    price: "$2.25"
+    price: "2.25"
   });
 
   Bakery.insert({
@@ -745,7 +777,7 @@ if (Bakery.find().count() === 0) {
     type: "Cakes & Sweet Pies",
     brand: "Tart Blanc",
     description: "Housemade, freshly baked ginger cookies with lemon zest and candied ginger chunks inside. Made daily and best consumed within two weeks.",
-    price: "$6.75"
+    price: "6.75"
   });
 
   Bakery.insert({
@@ -755,7 +787,7 @@ if (Bakery.find().count() === 0) {
     type: "Cakes & Sweet Pies",
     brand: "Tart Blanc",
     description: "The best of both worlds, oatmeal and chocolate chip. Great with a glass of warm milk. Made daily and best consumed within two weeks.",
-    price: "$6.75"
+    price: "6.75"
   });
 
   Bakery.insert({
@@ -765,7 +797,7 @@ if (Bakery.find().count() === 0) {
     type: "Cakes & Sweet Pies",
     brand: "Tart Blanc",
     description: "Housemade, freshly baked cookies, studded with white chocolate chip and dried cranberries. One of our perennial favorites.",
-    price: "$6.75"
+    price: "6.75"
   });
 
   Bakery.insert({
@@ -775,7 +807,7 @@ if (Bakery.find().count() === 0) {
     type: "Cakes & Sweet Pies",
     brand: "Tart Blanc",
     description: "Baked with australian butter and magdagascar vanilla, a deceivingly simple yet sophiscated vanilla cookie. Made daily and best consumed within two weeks.",
-    price: "$6.75"
+    price: "6.75"
   });
 
   Bakery.insert({
@@ -785,7 +817,7 @@ if (Bakery.find().count() === 0) {
     type: "Cakes & Sweet Pies",
     brand: "Tart Blanc",
     description: "Addictively thin crunchy sesame butter cookies. One of our perennial favorites at the store. Made daily and best consumed within two weeks.",
-    price: "$6.75"
+    price: "6.75"
   });
 
   Bakery.insert({
@@ -795,7 +827,7 @@ if (Bakery.find().count() === 0) {
     type: "Wraps, Pita & Naan",
     brand: "Mission",
     description: "Mission Wraps are the easiest way to prepare healthy and delicious meals ,simply wrap them using your favourite filling and ready to roll.",
-    price: "$5.25"
+    price: "5.25"
   });
 
   Bakery.insert({
@@ -805,7 +837,7 @@ if (Bakery.find().count() === 0) {
     type: "Wraps, Pita & Naan",
     brand: "Mission",
     description: "Mission Wraps are the easiest way to prepare healthy and delicious meals ,simply wrap them using your favourite filling and ready to roll.",
-    price: "$5.25"
+    price: "5.25"
   });
 
   Bakery.insert({
@@ -815,7 +847,7 @@ if (Bakery.find().count() === 0) {
     type: "Wraps, Pita & Naan",
     brand: "Mission",
     description: "Mission Pita are bread that can be cut into pockets making them ideal for lunch,dinner and snacks.",
-    price: "$5.75"
+    price: "5.75"
   });
 
   Bakery.insert({
@@ -825,7 +857,7 @@ if (Bakery.find().count() === 0) {
     type: "Wraps, Pita & Naan",
     brand: "Mission",
     description: "Mission Wraps are the easiest way to prepare healthy and delicious meals, simply wrap them using your favourite filling and ready to roll.",
-    price: "$5.75"
+    price: "5.75"
   });
 
   Bakery.insert({
@@ -835,7 +867,7 @@ if (Bakery.find().count() === 0) {
     type: "Wraps, Pita & Naan",
     brand: "Mission",
     description: "Mission Wraps are the easiest way to prepare healthy and delicious meals, simply wrap them using your favourite filling and ready to roll.",
-    price: "$5.25"
+    price: "5.25"
   });
 
   Bakery.insert({
@@ -845,7 +877,7 @@ if (Bakery.find().count() === 0) {
     type: "Wraps, Pita & Naan",
     brand: "Mission",
     description: "Mission Pita are bread that can be cut into pockets making them ideal for lunch,dinner and snacks.",
-    price: "$5.75"
+    price: "5.75"
   });
 
   Bakery.insert({
@@ -855,7 +887,7 @@ if (Bakery.find().count() === 0) {
     type: "Wraps, Pita & Naan",
     brand: "Mission",
     description: "Mission Wraps are the easiest way to prepare healthy and delicious meals ,simply wrap them using your favourite filling and ready to roll.",
-    price: "$5.25"
+    price: "5.25"
   });
 
   Bakery.insert({
@@ -865,7 +897,7 @@ if (Bakery.find().count() === 0) {
     type: "Wraps, Pita & Naan",
     brand: "Mission",
     description: "This is a flatbread made of wheat flour, generally unleavened. It is traditionally prepared by being beaten or throwing it against the walls of a tandoori oven.",
-    price: "$5.75"
+    price: "5.75"
   });
 
   Bakery.insert({
@@ -875,7 +907,7 @@ if (Bakery.find().count() === 0) {
     type: "Wraps, Pita & Naan",
     brand: "Mission",
     description: "Mission Wraps are the easiest way to prepare healthy and delicious meals ,simply wrap them using your favourite filling and ready to roll.",
-    price: "$5.25"
+    price: "5.25"
   });
 
   Bakery.insert({
@@ -885,7 +917,7 @@ if (Bakery.find().count() === 0) {
     type: "Wraps, Pita & Naan",
     brand: "Mission",
     description: "Mission Wraps are the easiest way to prepare healthy and delicious meals, simply wrap them using your favourite filling and ready to roll.",
-    price: "$5.75"
+    price: "5.75"
   });
 
   Bakery.insert({
@@ -895,7 +927,7 @@ if (Bakery.find().count() === 0) {
     type: "Wraps, Pita & Naan",
     brand: "Mission",
     description: "Mission Wraps are the easiest way to prepare healthy and delicious meals ,simply wrap them using your favourite filling and ready to roll.",
-    price: "$5.25"
+    price: "5.25"
   });
 
   Bakery.insert({
@@ -905,7 +937,7 @@ if (Bakery.find().count() === 0) {
     type: "Wraps, Pita & Naan",
     brand: "Mission",
     description: "Mission Wraps are the easiest way to prepare healthy and delicious meals ,simply wrap them using your favourite filling and ready to roll.",
-    price: "$5.25"
+    price: "5.25"
   });
 }
 
@@ -917,7 +949,7 @@ if (Beverages.find().count() === 0) {
     type: "Fresh Fruit Juice",
     brand: "Florida's Natural",
     description: "100% pure NOT-from-concentrate Orange Juice. No water, sugar or preservatives added, only 100% premium quality.",
-    price: "$6.75"
+    price: "6.75"
   });
 
   Beverages.insert({
@@ -927,7 +959,7 @@ if (Beverages.find().count() === 0) {
     type: "Fresh Fruit Juice",
     brand: "Florida's Natural",
     description: "100% pure NOT-from-concentrate Orange Juice. No water, sugar or preservatives added. With most juicy bits of orange.",
-    price: "$6.75"
+    price: "6.75"
   });
 
   Beverages.insert({
@@ -937,7 +969,7 @@ if (Beverages.find().count() === 0) {
     type: "Fresh Fruit Juice",
     brand: "Florida's Natural",
     description: "100% pure NOT-from-concentrate juice. The powerfully refreshing taste of Ruby Red without the bitter grapefruit taste.",
-    price: "$6.75"
+    price: "6.75"
   });
 
   Beverages.insert({
@@ -947,7 +979,7 @@ if (Beverages.find().count() === 0) {
     type: "Fresh Fruit Juice",
     brand: "Florida's Natural",
     description: "100% pure NOT-from-concentrate juice with no orange pulps that delivers a fresh squeezed taste and as much calcium as a glass of milk.",
-    price: "$6.75"
+    price: "6.75"
   });
 
   Beverages.insert({
@@ -957,7 +989,7 @@ if (Beverages.find().count() === 0) {
     type: "Fresh Fruit Juice",
     brand: "Florida's Natural",
     description: "100% pure NOT-from-concentrate Orange Juice. No water, sugar or preservatives added. With most juicy bits of orange.",
-    price: "$6.75"
+    price: "6.75"
   });
 
   Beverages.insert({
@@ -967,7 +999,7 @@ if (Beverages.find().count() === 0) {
     type: "Fresh Fruit Juice",
     brand: "Florida's Natural",
     description: "NOT-from-concentrate - old-fashioned and all-natural home-squeezed lemonade.",
-    price: "$6.75"
+    price: "6.75"
   });
 
   Beverages.insert({
@@ -977,7 +1009,7 @@ if (Beverages.find().count() === 0) {
     type: "Fresh Fruit Juice",
     brand: "Florida's Natural",
     description: "100% pure NOT-from-concentrate juice with most juicy bits of orange that delivers a fresh squeezed taste and as much calcium as a glass of milk.",
-    price: "$6.75"
+    price: "6.75"
   });
 
   Beverages.insert({
@@ -987,7 +1019,7 @@ if (Beverages.find().count() === 0) {
     type: "Fresh Fruit Juice",
     brand: "Florida's Natural",
     description: "100% pure NOT-from-concentrate refreshing Ruby Red taste with as much calcium as a glass of milk.",
-    price: "$6.75"
+    price: "6.75"
   });
 
   Beverages.insert({
@@ -997,7 +1029,7 @@ if (Beverages.find().count() === 0) {
     type: "Fresh Fruit Juice",
     brand: "Florida's Natural",
     description: "45% less Sugar and 45% less Calories and it's orange use only Valencia Orange Juice which leading to better tasting, better looking juice.",
-    price: "$6.75"
+    price: "6.75"
   });
 
   Beverages.insert({
@@ -1007,7 +1039,7 @@ if (Beverages.find().count() === 0) {
     type: "Fresh Fruit Juice",
     brand: "Florida's Natural",
     description: "45% less Sugar and 45% less Calories and it's orange use only Valencia Orange Juice which leading to better tasting, better looking juice.",
-    price: "$6.75"
+    price: "6.75"
   });
 
   Beverages.insert({
@@ -1017,7 +1049,7 @@ if (Beverages.find().count() === 0) {
     type: "Fresh Fruit Juice",
     brand: "Florida's Natural",
     description: "NOT-from-concentrate Juice cocktail - unique blend of tangy cranberry juice and smooth Ruby Red Grapefruit Juice.",
-    price: "$6.75"
+    price: "6.75"
   });
 
   Beverages.insert({
@@ -1027,7 +1059,7 @@ if (Beverages.find().count() === 0) {
     type: "Juice Drinks",
     brand: "Ceres",
     description: "Ceres Apple 100% Juice is made of pure apple juice from carefully selected, sun-ripened fruit.",
-    price: "$2.25"
+    price: "2.25"
   });
 
   Beverages.insert({
@@ -1037,7 +1069,7 @@ if (Beverages.find().count() === 0) {
     type: "Juice Drinks",
     brand: "Ceres",
     description: "Ceres Whispers of Summer 100% Juice is a blend of natural passion fruit, orange, apple and pear juice, peach puree, mango puree from carefully selected, sun-ripened fruit.",
-    price: "$2.25"
+    price: "2.25"
   });
 
   Beverages.insert({
@@ -1047,7 +1079,7 @@ if (Beverages.find().count() === 0) {
     type: "Juice Drinks",
     brand: "Ceres",
     description: "Ceres Orange 100% Juice is made of natural orange juice, apple and pear juice from carefully selected, sun-ripened fruit.",
-    price: "$2.25"
+    price: "2.25"
   });
 
   Beverages.insert({
@@ -1057,7 +1089,7 @@ if (Beverages.find().count() === 0) {
     type: "Juice Drinks",
     brand: "Ceres",
     description: "Ceres Mango 100% Juice is made of natural mango puree, apple and pear juice from carefully selected, sun-ripened fruit.",
-    price: "$2.25"
+    price: "2.25"
   });
 
   Beverages.insert({
@@ -1067,7 +1099,7 @@ if (Beverages.find().count() === 0) {
     type: "Juice Drinks",
     brand: "Ceres",
     description: "Ceres Pineapple 100% Juice is made of pineapple juice, apple and pear juice from carefully selected, sun-ripened fruit.",
-    price: "$2.25"
+    price: "2.25"
   });
 
   Beverages.insert({
@@ -1077,7 +1109,7 @@ if (Beverages.find().count() === 0) {
     type: "Juice Drinks",
     brand: "Ceres",
     description: "Ceres Ruby Grapefruit 100% Juice is made of natural ruby grapefruit, apple and pear juice from carefully selected, sun-ripened fruit.",
-    price: "$2.25"
+    price: "2.25"
   });
 
   Beverages.insert({
@@ -1087,7 +1119,7 @@ if (Beverages.find().count() === 0) {
     type: "Juice Drinks",
     brand: "Ceres",
     description: "Ceres Cranberry and Kiwi 100% Juice is a blend of cranberry, kiwi, apple and pear juice from carefully selected, sun-ripened fruit.",
-    price: "$2.25"
+    price: "2.25"
   });
 
   Beverages.insert({
@@ -1097,7 +1129,7 @@ if (Beverages.find().count() === 0) {
     type: "Juice Drinks",
     brand: "Ceres",
     description: "Ceres Red Grape 100% Juice is made of pure red grape juice from carefully selected, sun-ripened fruit.",
-    price: "$2.25"
+    price: "2.25"
   });
 
   Beverages.insert({
@@ -1107,7 +1139,7 @@ if (Beverages.find().count() === 0) {
     type: "Juice Drinks",
     brand: "Ceres",
     description: "Ceres Guava 100% Juice is made of natural guava puree, apple and pear juice from carefully selected, sun-ripened fruit.",
-    price: "$2.25"
+    price: "2.25"
   });
 
   Beverages.insert({
@@ -1117,7 +1149,7 @@ if (Beverages.find().count() === 0) {
     type: "Juice Drinks",
     brand: "Ceres",
     description: "Ceres 100% juice - Full Moon Harvest contains pear, berries and other fruits. This 100% fruit juice blend is high in vitamin C and contains no added preservatives.",
-    price: "$2.25"
+    price: "2.25"
   });
 
   Beverages.insert({
@@ -1127,7 +1159,7 @@ if (Beverages.find().count() === 0) {
     type: "Soft Drinks",
     brand: "Coca-Cola",
     description: "Coke Zero offers real Coca-Cola taste and zero calories. Some ask for perfection, others demand it.",
-    price: "$2.25"
+    price: "2.25"
   });
 
   Beverages.insert({
@@ -1137,7 +1169,7 @@ if (Beverages.find().count() === 0) {
     type: "Soft Drinks",
     brand: "Coca-Cola",
     description: "Enjoy the classic taste of Coke. Enjoyed over a billion times everyday!",
-    price: "$2.25"
+    price: "2.25"
   });
 
   Beverages.insert({
@@ -1147,7 +1179,7 @@ if (Beverages.find().count() === 0) {
     type: "Soft Drinks",
     brand: "Coca-Cola",
     description: "Coca-Cola has brought back one of its much-loved variants as it celebrates 10 years since the launch of Vanilla Coke.",
-    price: "$2.25"
+    price: "2.25"
   });
 
   Beverages.insert({
@@ -1157,7 +1189,7 @@ if (Beverages.find().count() === 0) {
     type: "Soft Drinks",
     brand: "Coca-Cola",
     description: "Coke Light is a low-calorie, great tasting, sugar-free sparkling cola drink.",
-    price: "$2.25"
+    price: "2.25"
   });
 
   Beverages.insert({
@@ -1167,7 +1199,7 @@ if (Beverages.find().count() === 0) {
     type: "Soft Drinks",
     brand: "Coca-Cola",
     description: "Coca-Cola Cherry Coca-Cola.",
-    price: "$1.75"
+    price: "1.75"
   });
 
   Beverages.insert({
@@ -1177,7 +1209,7 @@ if (Beverages.find().count() === 0) {
     type: "Soft Drinks",
     brand: "Coca-Cola",
     description: "Coca-Cola Diet Coke Caffeine Free.",
-    price: "$1.75"
+    price: "1.75"
   });
 
   Beverages.insert({
@@ -1187,7 +1219,7 @@ if (Beverages.find().count() === 0) {
     type: "Soft Drinks",
     brand: "Coca-Cola",
     description: "Coca-Cola Diet Coke Cherry.",
-    price: "$1.75"
+    price: "1.75"
   });
 
   Beverages.insert({
@@ -1197,7 +1229,7 @@ if (Beverages.find().count() === 0) {
     type: "Soft Drinks",
     brand: "Schweppes",
     description: "Schweppes Bitter Lemon is a sparkling beverage containing quinine and the zesty flavor of citrus for a unique experience.",
-    price: "$0.75"
+    price: "0.75"
   });
 
   Beverages.insert({
@@ -1207,7 +1239,7 @@ if (Beverages.find().count() === 0) {
     type: "Soft Drinks",
     brand: "Schweppes",
     description: "Schweppes Dry Ginger Ale has a crisp, clean, and light taste with a subtle fresh snap of ginger.",
-    price: "$0.75"
+    price: "0.75"
   });
 
   Beverages.insert({
@@ -1217,7 +1249,7 @@ if (Beverages.find().count() === 0) {
     type: "Soft Drinks",
     brand: "Fanta",
     description: "Bright, bubbly, and instantly refreshing, made with 100% natural flavours, caffeine-free.",
-    price: "$1.75"
+    price: "1.75"
   });
 
   Beverages.insert({
@@ -1227,7 +1259,7 @@ if (Beverages.find().count() === 0) {
     type: "Soft Drinks",
     brand: "Fanta",
     description: "A deliciously fruity, fizzy and refreshing taste, made with natural grape flavour, caffeine-free.",
-    price: "$1.75"
+    price: "1.75"
   });
 
   Beverages.insert({
@@ -1237,7 +1269,7 @@ if (Beverages.find().count() === 0) {
     type: "Soft Drinks",
     brand: "Fanta",
     description: "A deliciously fruity, fizzy and refreshing, made with natural strawberry flavour, caffeine-free.",
-    price: "$1.75"
+    price: "1.75"
   });
 
   Beverages.insert({
@@ -1247,7 +1279,7 @@ if (Beverages.find().count() === 0) {
     type: "Soft Drinks",
     brand: "Fanta",
     description: "New Innovation from Fanta.",
-    price: "$1.75"
+    price: "1.75"
   });
 
   Beverages.insert({
@@ -1257,7 +1289,7 @@ if (Beverages.find().count() === 0) {
     type: "Soft Drinks",
     brand: "Pepsi",
     description: "A light, crisp taste, all the refreshment you need.  With zero sugar, zero calories and zero carbs.",
-    price: "$2.00"
+    price: "2.00"
   });
 
   Beverages.insert({
@@ -1267,7 +1299,7 @@ if (Beverages.find().count() === 0) {
     type: "Soft Drinks",
     brand: "Pepsi",
     description: "Real Cola taste.  Bold and refreshing.  With natural flavors and sweetened with real sugar.  Drink it to believe it!",
-    price: "$2.00"
+    price: "2.00"
   });
 
   Beverages.insert({
@@ -1277,7 +1309,7 @@ if (Beverages.find().count() === 0) {
     type: "Soft Drinks",
     brand: "Red Bull",
     description: "Red Bull Sugar free is Red Bull Energy Drink without sugar.",
-    price: "$2.50"
+    price: "2.50"
   });
 
   Beverages.insert({
@@ -1287,7 +1319,7 @@ if (Beverages.find().count() === 0) {
     type: "Soft Drinks",
     brand: "Red Bull",
     description: "Zero Calories. Zero Sugar. 100% Wiiings !!! Red Bull Zero Calories, Vitalizes Body and Mind.",
-    price: "$3.00"
+    price: "3.00"
   });
 
   Beverages.insert({
@@ -1297,7 +1329,7 @@ if (Beverages.find().count() === 0) {
     type: "Soft Drinks",
     brand: "Red Bull",
     description: "Red Bull Energy Drink, appreciated worldwide by top athletes, students, and in highly demanding professions as well as during long drives.",
-    price: "$3.00"
+    price: "3.00"
   });
 
   Beverages.insert({
@@ -1307,7 +1339,7 @@ if (Beverages.find().count() === 0) {
     type: "Soft Drinks",
     brand: "Red Bull",
     description: "Same effect, Different taste. The Red Bull Editions combine the functionality of Red Bull Energy Drink with three specific flavors.",
-    price: "$2.50"
+    price: "2.50"
   });
 
   Beverages.insert({
@@ -1317,7 +1349,7 @@ if (Beverages.find().count() === 0) {
     type: "Soft Drinks",
     brand: "Red Bull",
     description: "Same effect, Different taste. The Red Bull Editions combine the functionality of Red Bull Energy Drink with three specific flavors.",
-    price: "$2.50"
+    price: "2.50"
   });
 
   Beverages.insert({
@@ -1327,7 +1359,7 @@ if (Beverages.find().count() === 0) {
     type: "Soft Drinks",
     brand: "Red Bull",
     description: "Same effect, Different taste. The Red Bull Editions combine the functionality of Red Bull Energy Drink with refreshing lime flavour.",
-    price: "$2.50"
+    price: "2.50"
   });
 
   Beverages.insert({
@@ -1337,7 +1369,7 @@ if (Beverages.find().count() === 0) {
     type: "Water",
     brand: "Borsec",
     description: "A mineral water that has probably won more international waters awards than most.",
-    price: "$1.50"
+    price: "1.50"
   });
 
   Beverages.insert({
@@ -1347,7 +1379,7 @@ if (Beverages.find().count() === 0) {
     type: "Water",
     brand: "Evian",
     description: "Evian Natural Mineral Water began as rain and melting snow on the peaks of the Northern Alps and is filtered by glacial sands deep in the hearts of the mountain.",
-    price: "$3.75"
+    price: "3.75"
   });
 
   Beverages.insert({
@@ -1357,7 +1389,7 @@ if (Beverages.find().count() === 0) {
     type: "Water",
     brand: "Acqua Panna",
     description: "Acqua Panna Natural Mineral Water takes its name from the Villa Panna in the hills of Tuscany, where the water was first discovered.",
-    price: "$3.00"
+    price: "3.00"
   });
 }
 
@@ -1369,7 +1401,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Condiments & Dressings",
     brand: "Heinz",
     description: "Heinz Tomato Ketchup has a classic, rich tomato taste that has made Heinz America's favorite ketchup.",
-    price: "$4.75"
+    price: "4.75"
   });
 
   Food_Cupboard.insert({
@@ -1379,7 +1411,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Condiments & Dressings",
     brand: "Heinz",
     description: "Made with free range eggs, deliciously cream and smooth, a magnificent, classic recipe.",
-    price: "$5.50"
+    price: "5.50"
   });
 
   Food_Cupboard.insert({
@@ -1389,7 +1421,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Condiments & Dressings",
     brand: "Heinz",
     description: "Heinz Regular BBQ Sauce a perfect blend of tomatoes, vinegar and over 15 different herbs and spices.",
-    price: "$4.25"
+    price: "4.25"
   });
 
   Food_Cupboard.insert({
@@ -1399,7 +1431,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Condiments & Dressings",
     brand: "Heinz",
     description: "For 140 years, Heinz has been dedicated to bringing you the very best. Heinz Yellow Mustard is an all natural, premium mustard with a classic great taste.",
-    price: "$4.75"
+    price: "4.75"
   });
 
   Food_Cupboard.insert({
@@ -1409,7 +1441,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Condiments & Dressings",
     brand: "Heinz",
     description: "Heinz Salad Cream is a unique and tasty way to liven up salads, sandwiches, baked potatoes, burgers and chips, instantly.",
-    price: "$5.50"
+    price: "5.50"
   });
 
   Food_Cupboard.insert({
@@ -1419,7 +1451,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Condiments & Dressings",
     brand: "Heinz",
     description: "With at least 60% less fat than Heinz Standard Mayonnaise, Heinz Light Mayonnaise is perfect if you are keeping a check on calories, and still tastes great.",
-    price: "$5.75"
+    price: "5.75"
   });
 
   Food_Cupboard.insert({
@@ -1429,7 +1461,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Condiments & Dressings",
     brand: "Heinz",
     description: "Enjoy the classic taste of Heinz Premium Tartar Sauce - seafood's not the same without it. It has a rich, creamy texture with the tangy bite of sweet pickle relish.",
-    price: "$6.00"
+    price: "6.00"
   });
 
   Food_Cupboard.insert({
@@ -1439,7 +1471,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Condiments & Dressings",
     brand: "Heinz",
     description: "Enjoy the creamy and zesty taste of Heinz Premium Horseradish Sauce. It is a delicious addition to any sandwich and is great with meats and vegetables too.",
-    price: "$6.00"
+    price: "6.00"
   });
 
   Food_Cupboard.insert({
@@ -1449,7 +1481,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Condiments & Dressings",
     brand: "Hunt's",
     description: "Try Hunt's 100-Percent Natural Ketchup, made with no high fructose corn syrup.",
-    price: "$5.00"
+    price: "5.00"
   });
 
   Food_Cupboard.insert({
@@ -1459,7 +1491,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Condiments & Dressings",
     brand: "Hellmann's",
     description: "With a rich, creamy texture and the great taste you love, it's delicious on sandwiches, in salads, and in other food creations.",
-    price: "$5.50"
+    price: "5.50"
   });
 
   Food_Cupboard.insert({
@@ -1469,7 +1501,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Condiments & Dressings",
     brand: "Hellmann's",
     description: "Perfect with all your salads.",
-    price: "$5.25"
+    price: "5.25"
   });
 
   Food_Cupboard.insert({
@@ -1479,7 +1511,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Condiments & Dressings",
     brand: "Hellmann's",
     description: "Make the most of this totally tasty thousand island dressing with tomato, red pepper and cayenne pepper.",
-    price: "$5.25"
+    price: "5.25"
   });
 
   Food_Cupboard.insert({
@@ -1489,7 +1521,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Condiments & Dressings",
     brand: "Del Monte",
     description: "Make the most of this totally tasty thousand island dressing with tomato, red pepper and cayenne pepper.",
-    price: "$1.50"
+    price: "1.50"
   });
 
   Food_Cupboard.insert({
@@ -1499,7 +1531,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Condiments & Dressings",
     brand: "KRAFT",
     description: "KRAFT Real MAYO Mayonnaise has a rich, creamy texture and delicious taste sure to complement your sandwiches and salads.",
-    price: "$12.50"
+    price: "12.50"
   });
 
   Food_Cupboard.insert({
@@ -1509,7 +1541,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Condiments & Dressings",
     brand: "Best Foods",
     description: "Finest ingredients specially blended for a rich, creamy texture and delicious taste; with Omega 3.",
-    price: "$2.75"
+    price: "2.75"
   });
 
   Food_Cupboard.insert({
@@ -1519,7 +1551,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Cooking Ingredients",
     brand: "McCormick",
     description: "Use McCormick Paprika to add flavor and color to your favorite dishes.",
-    price: "$4.50"
+    price: "4.50"
   });
 
   Food_Cupboard.insert({
@@ -1529,7 +1561,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Cooking Ingredients",
     brand: "McCormick",
     description: "The comforting aroma and flavor of McCormick Ground Cinnamon will inspire more than just baking.",
-    price: "$4.00"
+    price: "4.00"
   });
 
   Food_Cupboard.insert({
@@ -1539,7 +1571,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Cooking Ingredients",
     brand: "McCormick",
     description: "The comfor of aroma and flavor of McCormick Ground Nutmeg will inspire more than just baking.",
-    price: "$5.75"
+    price: "5.75"
   });
 
   Food_Cupboard.insert({
@@ -1549,7 +1581,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Cooking Ingredients",
     brand: "Knorr",
     description: "Made from real chicken; no artificial colourings and no preservatives added.",
-    price: "$2.00"
+    price: "2.00"
   });
 
   Food_Cupboard.insert({
@@ -1559,7 +1591,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Cooking Ingredients",
     brand: "Knorr",
     description: "Real beef taste; no artificial colourings and no preservatives added.",
-    price: "$1.75"
+    price: "1.75"
   });
 
   Food_Cupboard.insert({
@@ -1569,7 +1601,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Cooking Ingredients",
     brand: "Knorr",
     description: "Made from real vegetable; no artificial colourings and no preservatives added.",
-    price: "$1.75"
+    price: "1.75"
   });
 
   Food_Cupboard.insert({
@@ -1579,7 +1611,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Cooking Ingredients",
     brand: "Knorr",
     description: "Made from real chicken; no artificial colourings and no preservatives added.",
-    price: "$1.75"
+    price: "1.75"
   });
 
   Food_Cupboard.insert({
@@ -1589,7 +1621,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Cooking Ingredients",
     brand: "Knorr",
     description: "Made from real ikan bilis, no artificial colorings and no preservatives added.",
-    price: "$1.75"
+    price: "1.75"
   });
 
   Food_Cupboard.insert({
@@ -1599,7 +1631,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Cooking Ingredients",
     brand: "Knorr",
     description: "Thai tom yum soup made by premium quality Knorr brand.",
-    price: "$1.75"
+    price: "1.75"
   });
 
   Food_Cupboard.insert({
@@ -1609,7 +1641,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Grains, Beans & Pulses",
     brand: "Origins",
     description: "Quinoa is tasty and versatile. Substitute quinoa for couscous or rice and is delicious by itself and in a variety of recipes.",
-    price: "$12.25"
+    price: "12.25"
   });
 
   Food_Cupboard.insert({
@@ -1619,7 +1651,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Grains, Beans & Pulses",
     brand: "Origins",
     description: "Origins Organic Green Lentils can be used in salads and lentil loaves.",
-    price: "$4.00"
+    price: "4.00"
   });
 
   Food_Cupboard.insert({
@@ -1629,7 +1661,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Grains, Beans & Pulses",
     brand: "Origins",
     description: "Origins Organic Red Lentils are an excellent source of fiber and protein, nutritious as well as delicious.",
-    price: "$4.75"
+    price: "4.75"
   });
 
   Food_Cupboard.insert({
@@ -1639,7 +1671,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Grains, Beans & Pulses",
     brand: "Origins",
     description: "Also known as chickpeas, can be boiled, fried, roasted, sprouted, stewed, in soups and ground into flour.",
-    price: "$5.25"
+    price: "5.25"
   });
 
   Food_Cupboard.insert({
@@ -1649,7 +1681,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Grains, Beans & Pulses",
     brand: "Origins",
     description: "Origins Organic Red Kidney Beans have a popular pleasing flavor.",
-    price: "$4.75"
+    price: "4.75"
   });
 
   Food_Cupboard.insert({
@@ -1659,7 +1691,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Cake",
     brand: "EGO",
     description: "Fluffy, chocolatey cakes with a rich, sweet cream, individual packs ideal for enjoying on the go.",
-    price: "$2.25"
+    price: "2.25"
   });
 
   Food_Cupboard.insert({
@@ -1669,7 +1701,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Cake",
     brand: "EGO",
     description: "Fluffy, golden sponge cakes with rich, vanilla cream, individual packs ideal for enjoying on the go.",
-    price: "$2.25"
+    price: "2.25"
   });
 
   Food_Cupboard.insert({
@@ -1679,7 +1711,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Cake",
     brand: "EGO",
     description: "Fluffy, delicious sponge cakes with a tropical taste, individual packs ideal for enjoying on the go.",
-    price: "$2.25"
+    price: "2.25"
   });
 
   Food_Cupboard.insert({
@@ -1689,7 +1721,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Cake",
     brand: "EGO",
     description: "Fluffy, golden sponge cakes with sweet, berry cream, individual packs ideal for enjoying on the go.",
-    price: "$2.25"
+    price: "2.25"
   });
 
   Food_Cupboard.insert({
@@ -1699,7 +1731,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Oil",
     brand: "Naturel",
     description: "Naturel Canola Oil, made from pure and natural ingredients, brings out the natural taste of all your dishes.",
-    price: "$9.50"
+    price: "9.50"
   });
 
   Food_Cupboard.insert({
@@ -1709,7 +1741,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Oil",
     brand: "Naturel",
     description: "Made from pure and natural ingredients, Naturel Premium Cooking Oil is an original blend of canola and sunflower oil.",
-    price: "$10.75"
+    price: "10.75"
   });
 
   Food_Cupboard.insert({
@@ -1719,7 +1751,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Oil",
     brand: "Naturel",
     description: "Naturel Sunflower Oil is a high quality and light tasting cooking oil that brings out the natural taste of all your dishes.",
-    price: "$9.75"
+    price: "9.75"
   });
 
   Food_Cupboard.insert({
@@ -1729,7 +1761,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Oil",
     brand: "RedMart",
     description: "Canola Oil made from 100% canola is ideal for any form of cooking. It contains omega-3 and omega-6, is suitable for vegetarians.",
-    price: "$5.75"
+    price: "5.75"
   });
 
   Food_Cupboard.insert({
@@ -1739,7 +1771,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Oil",
     brand: "Harmuni",
     description: "Harmuni 100% Pure Vegetable Oil is a pure vegetable oil ideal for all styles of cooking",
-    price: "$4.00"
+    price: "4.00"
   });
 
   Food_Cupboard.insert({
@@ -1749,7 +1781,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Oil",
     brand: "Golden",
     description: "Golden 100% Corn Oil is pure corn oil made from top grade corn.",
-    price: "$8.50"
+    price: "8.50"
   });
 
   Food_Cupboard.insert({
@@ -1759,7 +1791,7 @@ if (Food_Cupboard.find().count() === 0) {
     type: "Oil",
     brand: "Golden",
     description: "Golden 100% Soya Bean Oil is ideal for cooking and baking.",
-    price: "$6.75"
+    price: "6.75"
   });
 }
 
@@ -1770,7 +1802,7 @@ if (Frozen.find().count() === 0) {
     brand: "Blue Bunny",
     quantity: "1 gal",
     description: "Fat reduced 28% from regular ice cream, from 7g to 5g per serving.",
-    price: "$4.25"
+    price: "4.25"
   });
 
   Frozen.insert({
@@ -1779,7 +1811,7 @@ if (Frozen.find().count() === 0) {
     brand: "Breyers",
     quantity: "48 oz",
     description: "Scoop into the rich flavor of Breyers ice cream loaded with your favorite mix-ins! Every spoonful's so good, it must be Breyers.",
-    price: "$6.00"
+    price: "6.00"
   });
 
   Frozen.insert({
@@ -1788,7 +1820,7 @@ if (Frozen.find().count() === 0) {
     brand: "Popsicle",
     quantity: "18 per pack",
     description: "A sugared version of four refreshing tropical flavors from Popsicle ice pops - Mango, Island Punch, Pineapple, and Strawberry Banana.",
-    price: "$3.75"
+    price: "3.75"
   });
 
   Frozen.insert({
@@ -1797,7 +1829,7 @@ if (Frozen.find().count() === 0) {
     brand: "Breyers",
     quantity: "48 oz",
     description: "Savor the creamy, delicious taste of Breyers dark chocolate ice cream and pieces of dark chocolate truffles in every bite.",
-    price: "$5.25"
+    price: "5.25"
   });
 
   Frozen.insert({
@@ -1806,7 +1838,7 @@ if (Frozen.find().count() === 0) {
     brand: "Snickers",
     quantity: "12 per pack",
     description: "Snickers Ice Cream Bars start with the best peanut butter ice cream paired with Snickers awesomeness??? like roasted peanuts, amazing caramel and a rich chocolatey coating. Now that's a Snickers Ice Cream Bar.",
-    price: "$5.00"
+    price: "5.00"
   });
 
   Frozen.insert({
@@ -1815,7 +1847,7 @@ if (Frozen.find().count() === 0) {
     brand: "Great Value",
     quantity: "48 oz",
     description: "Our guarantee is our promise that you'll be fully satisfied with the taste and quality of every Great Value product. If for any reason you aren't happy, we'll replace it or return your money. Whichever you prefer. All you need is the package and the receipt. It's that simple. Great quality. Great price. Guaranteed.",
-    price: "$4.50"
+    price: "4.50"
   });
 
   Frozen.insert({
@@ -1824,7 +1856,7 @@ if (Frozen.find().count() === 0) {
     brand: "Klondike",
     quantity: "4 per pack",
     description: "Stuffed with vanilla light ice cream and fudgy swirls; Topped with roasted peanuts; Wrapped in a delicious sugar taco cone; Lined with a rich chocolatey coating.",
-    price: "$3.25"
+    price: "3.25"
   });
 
   Frozen.insert({
@@ -1833,7 +1865,7 @@ if (Frozen.find().count() === 0) {
     brand: "Popsicle",
     quantity: "18 per pack",
     description: "Cherry, blue raspberry, green apple and grape; A quiescently frozen confection",
-    price: "$4.25"
+    price: "4.25"
   });
 
   Frozen.insert({
@@ -1842,7 +1874,7 @@ if (Frozen.find().count() === 0) {
     brand: "Great Value",
     quantity: "12 per pack",
     description: "Our guarantee is our promise that you'll be fully satisfied with the taste and quality of every Great Value product. If for any reason you aren't happy, we'll replace it or return your money. Whichever you prefer. All you need is the package and the receipt. It's that simple. Great quality. Great price. Guaranteed.",
-    price: "$6.50"
+    price: "6.50"
   });
 
   Frozen.insert({
@@ -1851,7 +1883,7 @@ if (Frozen.find().count() === 0) {
     brand: "Drumstick",
     quantity: "8 per pack",
     description: "Variety Pack of delicious creamy Vanilla, Chocolate or Vanilla Caramel dipped in chocolatey coating; The Original Sundae Cone; Good the Whole Way Through Topped with Roasted Peanuts; Creamy and Delicious Crispy Sugar Cone; Rich Chocolatey Lining; Chocolatey Nugget Kosher Dairy.",
-    price: "$6.25"
+    price: "6.25"
   });
 
   Frozen.insert({
@@ -1859,8 +1891,8 @@ if (Frozen.find().count() === 0) {
     name: "Great Value Vanilla Ice Cream Cups",
     brand: "Great Value",
     quantity: "12 per pack",
-    description: "Our guarantee is our promise that you???ll be fully satisfied with the taste and quality of every Great Value product. If for any reason you aren???t happy, we???ll replace it or return your money. Whichever you prefer. All you need is the package and the receipt. It???s that simple. Great quality. Great price. Guaranteed.",
-    price: "$5.25"
+    description: "Our guarantee is our promise that you'll be fully satisfied with the taste and quality of every Great Value product. If for any reason you aren't happy, we'll replace it or return your money. Whichever you prefer. All you need is the package and the receipt. It's that simple. Great quality. Great price. Guaranteed.",
+    price: "5.25"
   });
 
   Frozen.insert({
@@ -1869,7 +1901,7 @@ if (Frozen.find().count() === 0) {
     brand: "Good Humor",
     quantity: "6 per pack",
     description: "Peanut butter ice cream with a Reese's peanut butter swirl dipped in a milk-chocolate coating; Kosher.",
-    price: "$5.00"
+    price: "5.00"
   });
 
   Frozen.insert({
@@ -1878,7 +1910,7 @@ if (Frozen.find().count() === 0) {
     brand: "Wall's",
     quantity: "6 x 64 ml",
     description: "Lime and Vanila Flavored Ice Confection.",
-    price: "$5.50"
+    price: "5.50"
   });
 
   Frozen.insert({
@@ -1887,7 +1919,7 @@ if (Frozen.find().count() === 0) {
     brand: "Häagen-Dazs",
     quantity: "473 ml",
     description: "The elegant and sophisticated marriage of pure, sweet cream and imported vanilla.",
-    price: "$12.50"
+    price: "12.50"
   });
 
   Frozen.insert({
@@ -1896,7 +1928,7 @@ if (Frozen.find().count() === 0) {
     brand: "Magnum",
     quantity: "6 x 60 ml",
     description: "Magnum Mini Pistacchio features a smooth Pistacchio flavored ice cream that is perfectly balanced with the encrusted dark chocolate coating and the tinge of savouriness from the pistacchio ice cream.",
-    price: "$8.50"
+    price: "8.50"
   });
 
   Frozen.insert({
@@ -1905,7 +1937,7 @@ if (Frozen.find().count() === 0) {
     brand: "Eskimo Pie",
     quantity: "6 per pack",
     description: "You'll get more chocolate crunch with Nestle Crunch on a stick delightfully rich vanilla bars surrounded by a chocolatey Nestle Crunch coating.",
-    price: "$5.75"
+    price: "5.75"
   });
 
   Frozen.insert({
@@ -1914,7 +1946,7 @@ if (Frozen.find().count() === 0) {
     brand: "Bomb Pop",
     quantity: "12 per pack",
     description: "Warheads super sour blue raspberry, green apple & black cherry flavored ice pop, all stacked in the iconic bomb pop shape.",
-    price: "$4.75"
+    price: "4.75"
   });
 
   Frozen.insert({
@@ -1923,7 +1955,7 @@ if (Frozen.find().count() === 0) {
     brand: "Dreyer's",
     quantity: "887 ml",
     description: "Smooth, creamy and simply delicious, it's the perfect flavor to spark a smile.",
-    price: "$10.75"
+    price: "10.75"
   });
 
   Frozen.insert({
@@ -1932,7 +1964,7 @@ if (Frozen.find().count() === 0) {
     brand: "Cornetto",
     quantity: "12 x 28 ml",
     description: "Cornetto Green Tea with whipped cream rosettes and white chocolate flakes capping a delicious serving of green tea ice cream.",
-    price: "$6.75"
+    price: "6.75"
   });
 
   Frozen.insert({
@@ -1941,7 +1973,7 @@ if (Frozen.find().count() === 0) {
     brand: "Ben and Jerry's",
     quantity: "473 ml",
     description: "As you slam dunk your spoon through creamy mocha and caramel to celebrate the epic chocolate cookie-spread core.",
-    price: "$14.50"
+    price: "14.50"
   });
 }
 
@@ -1952,7 +1984,7 @@ if (Fruit_Vegetables.find().count() === 0) {
     weight: "1 kg",
     type: "Fruit",
     description: "Mildly sweet and vanilla -like with a flora aroma. This is one apple that has a thinner skin than most.",
-    price: "$3.50"
+    price: "3.50"
   });
 
   Fruit_Vegetables.insert({
@@ -1961,7 +1993,7 @@ if (Fruit_Vegetables.find().count() === 0) {
     weight: "2.27 kg",
     type: "Vegetable",
     description: "Product of USA.Russets are long and large with a thick, rough, skin.",
-    price: "$3.25"
+    price: "3.25"
   });
 
   Fruit_Vegetables.insert({
@@ -1970,7 +2002,7 @@ if (Fruit_Vegetables.find().count() === 0) {
     weight: "4 per pack",
     type: "Fruit",
     description: "Has a wide-bottomed shape and a smooth green skin that ripens to yellow.",
-    price: "$2.75"
+    price: "2.75"
   });
 
   Fruit_Vegetables.insert({
@@ -1979,7 +2011,7 @@ if (Fruit_Vegetables.find().count() === 0) {
     weight: "1 kg",
     type: "Vegetable",
     description: "Carrots are an excellent source of vitamin a and they help promote heart, eye, brain, skin and liver health.",
-    price: "$2.00"
+    price: "2.00"
   });
 
   Fruit_Vegetables.insert({
@@ -1988,7 +2020,7 @@ if (Fruit_Vegetables.find().count() === 0) {
     weight: "800 g",
     type: "Fruit",
     description: "Bananas are an anytime, year-round snack. Use them fully yellow with just a dusting of brown freckles.",
-    price: "$1.75"
+    price: "1.75"
   });
 
   Fruit_Vegetables.insert({
@@ -1997,7 +2029,7 @@ if (Fruit_Vegetables.find().count() === 0) {
     weight: "1 per pack",
     type: "Vegetable",
     description: "Cucumbers are a wonderfully refreshing vegetable, with a crisp texture and cool taste.",
-    price: "$3.25"
+    price: "3.25"
   });
 
   Fruit_Vegetables.insert({
@@ -2006,7 +2038,7 @@ if (Fruit_Vegetables.find().count() === 0) {
     weight: "1 kg",
     type: "Fruit",
     description: "Delicious and juicy orange fruit contains an impressive list of essential nutrients, vitamins, minerals for normal growth and development and overall well-being.",
-    price: "$3.00"
+    price: "3.00"
   });
 
   Fruit_Vegetables.insert({
@@ -2015,7 +2047,7 @@ if (Fruit_Vegetables.find().count() === 0) {
     weight: "1 per pack",
     type: "Vegetable",
     description: "The iceberg lettuce is used for everything from sandwiches to coleslaw. Its leaves are pale green, and quite firm and crisp in texture.",
-    price: "$2.50"
+    price: "2.50"
   });
 
   Fruit_Vegetables.insert({
@@ -2024,7 +2056,7 @@ if (Fruit_Vegetables.find().count() === 0) {
     weight: "250 g",
     type: "Fruit",
     description: "Strawberries are very popular worldwide. Their skin is very thin, and is covered in tiny seeds.",
-    price: "$4.00"
+    price: "4.00"
   });
 
   Fruit_Vegetables.insert({
@@ -2033,7 +2065,7 @@ if (Fruit_Vegetables.find().count() === 0) {
     weight: "500 g",
     type: "Vegetable",
     description: "Spicy, juicy, baseball-sized bundles of flavor. These pungent staples release their flavor when sauteed, braised, grilled, or roasted.",
-    price: "$3.00"
+    price: "3.00"
   });
 
   Fruit_Vegetables.insert({
@@ -2042,7 +2074,7 @@ if (Fruit_Vegetables.find().count() === 0) {
     weight: "1 per pack",
     type: "Fruit",
     description: "Pineapples have exceptional juiciness and a vibrant tropical flavour that balances the tastes of sweet and tart.",
-    price: "$4.50"
+    price: "4.50"
   });
 
   Fruit_Vegetables.insert({
@@ -2051,7 +2083,7 @@ if (Fruit_Vegetables.find().count() === 0) {
     weight: "1 per pack",
     type: "Vegetable",
     description: "These augmented super sweets give you the tenderness that the consumer now demands coupled with exceptional sweetness and flavor.",
-    price: "$2.00"
+    price: "2.00"
   });
 
   Fruit_Vegetables.insert({
@@ -2060,7 +2092,7 @@ if (Fruit_Vegetables.find().count() === 0) {
     weight: "500 g",
     type: "Fruit",
     description: "Plump, fresh and firm. These berries are sweet and juicy.",
-    price: "$4.00"
+    price: "4.00"
   });
 
   Fruit_Vegetables.insert({
@@ -2069,7 +2101,7 @@ if (Fruit_Vegetables.find().count() === 0) {
     weight: "250 g",
     type: "Vegetable",
     description: "These are multi-purpose tomatoes use them in salads, sandwiches, pasta sauces, soups, stews and salsas.",
-    price: "$3.75"
+    price: "3.75"
   });
 
   Fruit_Vegetables.insert({
@@ -2078,7 +2110,7 @@ if (Fruit_Vegetables.find().count() === 0) {
     weight: "1 per pack",
     type: "Fruit",
     description: "The king of the fruits, mango fruit is one of the most popular, nutritionally rich fruits with unique flavour, fragrance, taste, and heath promoting qualities, making it numero-uno among new functional foods.",
-    price: "$3.75"
+    price: "3.75"
   });
 
   Fruit_Vegetables.insert({
@@ -2087,7 +2119,7 @@ if (Fruit_Vegetables.find().count() === 0) {
     weight: "500 g",
     type: "Vegetable",
     description: "Capsicums, also known as sweet peppers, are closely related to hot chilies, but are sweeter tasting and not hot to eat.",
-    price: "$5.75"
+    price: "5.75"
   });
 
   Fruit_Vegetables.insert({
@@ -2096,7 +2128,7 @@ if (Fruit_Vegetables.find().count() === 0) {
     weight: "6 per pack",
     type: "Fruit",
     description: "The distinctive sour taste of lemon juice is used to flavour a variety of food and beverages and the rind (zest) can also be used in cooking and baking.",
-    price: "$3.25"
+    price: "3.25"
   });
 
   Fruit_Vegetables.insert({
@@ -2105,7 +2137,7 @@ if (Fruit_Vegetables.find().count() === 0) {
     weight: "300 g",
     type: "Vegetable",
     description: "Versatile broccoli is delicious raw or cooked, and it is packed with so many complex nutrients that it's often called a superfood.",
-    price: "$2.75"
+    price: "2.75"
   });
 
   Fruit_Vegetables.insert({
@@ -2114,7 +2146,7 @@ if (Fruit_Vegetables.find().count() === 0) {
     weight: "1 per pack",
     type: "Fruit",
     description: "Deliciously sweet with musky undertones and a soft, butter-like consistency, it is no wonder the papaya was reputably called the 'fruit of the angels' by Christopher Columbus.",
-    price: "$5.00"
+    price: "5.00"
   });
 
   Fruit_Vegetables.insert({
@@ -2123,7 +2155,7 @@ if (Fruit_Vegetables.find().count() === 0) {
     weight: "700 g",
     type: "Vegetable",
     description: "The crisp and fleshy leaves are loaded with tart tanginess and a surprisingly pleasing aroma.",
-    price: "$2.75"
+    price: "2.75"
   });
 }
 
@@ -2135,7 +2167,7 @@ if (Household.find().count() === 0) {
     type: "Paper & Tissue",
     brand: "Kleenex",
     description: "New Kleenex Ultrasoft Toilet Tissues offer ultra softness and strength with 3-ply thick sheets.",
-    price: "$7.25"
+    price: "7.25"
   });
 
   Household.insert({
@@ -2145,7 +2177,7 @@ if (Household.find().count() === 0) {
     type: "Paper & Tissue",
     brand: "Kleenex",
     description: "Now with Aloe Vera, new Kleenex Ultrasoft Aloe Vera Toilet Tissues offer ultra softness and strength with 3-ply thick sheets.",
-    price: "$7.75"
+    price: "7.75"
   });
 
   Household.insert({
@@ -2155,7 +2187,7 @@ if (Household.find().count() === 0) {
     type: "Paper & Tissue",
     brand: "Kleenex",
     description: "The new Kleenex Ultra Soft Moist Toilet Tissue, designed to remove unseen dirt and help reduce odours.",
-    price: "$3.50"
+    price: "3.50"
   });
 
   Household.insert({
@@ -2165,7 +2197,7 @@ if (Household.find().count() === 0) {
     type: "Paper & Tissue",
     brand: "Scott",
     description: "With SCOTT Towels, you give your family the best and more!  SCOTT Towels are now made with 100% virgin fiber.",
-    price: "$4.75"
+    price: "4.75"
   });
 
   Household.insert({
@@ -2175,7 +2207,7 @@ if (Household.find().count() === 0) {
     type: "Paper & Tissue",
     brand: "Scott",
     description: "With SCOTT Pick-A-Size Towels, you give your family the best and more!  SCOTT Pick-A-Size Towels comes with additional perforation especially for your various household needs.",
-    price: "$5.00"
+    price: "5.00"
   });
 
   Household.insert({
@@ -2185,7 +2217,7 @@ if (Household.find().count() === 0) {
     type: "Paper & Tissue",
     brand: "Scott",
     description: "SCOTT Calorie Light premium towel with Fiber-Tech technology is extra thick and designed specifically for the easy absorption of excess oil on foods.",
-    price: "$5.75"
+    price: "5.75"
   });
 
   Household.insert({
@@ -2195,7 +2227,7 @@ if (Household.find().count() === 0) {
     type: "Paper & Tissue",
     brand: "Dettol",
     description: "Dettol Anti-Bacterial Wet Wipes kill 99.9% of harmful germs and protect anytime, anywhere!",
-    price: "$5.25"
+    price: "5.25"
   });
 
   Household.insert({
@@ -2205,7 +2237,7 @@ if (Household.find().count() === 0) {
     type: "Paper & Tissue",
     brand: "Pigeon",
     description: "Pigeon Anti-Bacterial Wet Tissues are formulated with 100% food grade ingredients and kill 99.99% of bacterias.",
-    price: "$2.25"
+    price: "2.25"
   });
 
   Household.insert({
@@ -2215,7 +2247,7 @@ if (Household.find().count() === 0) {
     type: "Paper & Tissue",
     brand: "Charmin",
     description: "Its unique Comfort Cushions are soft and absorbent, giving you the softness you love.",
-    price: "$10.25"
+    price: "10.25"
   });
 
   Household.insert({
@@ -2225,7 +2257,7 @@ if (Household.find().count() === 0) {
     type: "Paper & Tissue",
     brand: "Charmin",
     description: "Use less with Charmin Ultra Strong bath tissue! Charmin Ultra Strong 2-ply bath tissue is 4X stronger when wet.",
-    price: "$10.75"
+    price: "10.75"
   });
 
   Household.insert({
@@ -2235,7 +2267,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Downy",
     description: "Downy AntiBac Concentrate Fabric Conditioner keeps colors bright and reduces fading.",
-    price: "$10.50"
+    price: "10.50"
   });
 
   Household.insert({
@@ -2245,7 +2277,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Downy",
     description: "We treat your baby's delicate skin the same way you do: with love and gentleness",
-    price: "$10.50"
+    price: "10.50"
   });
 
   Household.insert({
@@ -2255,7 +2287,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Downy",
     description: "A masterful blend of fruity scents with creamy vanilla powdery scent, wrapped in the playful and intriguing spices leaves mysterious scent.",
-    price: "$11.50"
+    price: "11.50"
   });
 
   Household.insert({
@@ -2265,7 +2297,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Downy",
     description: "Downy Passion Concentrate Fabric Conditioner keeps colors bright and reduces fading.",
-    price: "$11.50"
+    price: "11.50"
   });
 
   Household.insert({
@@ -2275,7 +2307,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Downy",
     description: "Downy Fusion Concentrate Fabric Conditioner keeps colors bright and reduces fading.",
-    price: "$11.50"
+    price: "11.50"
   });
 
   Household.insert({
@@ -2285,7 +2317,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Downy",
     description: "Downy Timeless Concentrate Fabric Conditioner keeps colors bright and reduces fading.",
-    price: "$11.50"
+    price: "11.50"
   });
 
   Household.insert({
@@ -2295,7 +2327,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Downy",
     description: "Downy Garden Bloom Concentrate Fabric Conditioner keeps colors bright and reduces fading.",
-    price: "$10.50"
+    price: "10.50"
   });
 
   Household.insert({
@@ -2305,7 +2337,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Downy",
     description: "Downy Romance Concentrate Fabric Conditioner keeps colors bright and reduces fading",
-    price: "$11.50"
+    price: "11.50"
   });
 
   Household.insert({
@@ -2315,7 +2347,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Vanish",
     description: "Vanish Liquid Fabric Stain Remover has 2X more power against stains.",
-    price: "$6.50"
+    price: "6.50"
   });
 
   Household.insert({
@@ -2325,7 +2357,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Vanish",
     description: "Vanish white liquid is an effective stain remover specialized for white fabrics.",
-    price: "$6.50"
+    price: "6.50"
   });
 
   Household.insert({
@@ -2335,7 +2367,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Vanish",
     description: "Vanish PowerO2 Fabric Stain Remover has amazing power to remove tough, set-in stains.",
-    price: "$8.50"
+    price: "8.50"
   });
 
   Household.insert({
@@ -2345,7 +2377,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Vanish",
     description: "Vanish powero2 extra hygiene fabric stain remover has amazing power to remove tough, set-in stains and kills 99.9-percent of bacteria.",
-    price: "$8.50"
+    price: "8.50"
   });
 
   Household.insert({
@@ -2355,7 +2387,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Vanish",
     description: "From the same company as Napisam, Vanish can be substituted w the same great results.",
-    price: "$14.75"
+    price: "14.75"
   });
 
   Household.insert({
@@ -2365,7 +2397,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Vanish",
     description: "Vanish PowerO2 Crystal White Fabric Stain Remover + Whitener offers amazing stain removal with the first use!",
-    price: "$8.50"
+    price: "8.50"
   });
 
   Household.insert({
@@ -2375,7 +2407,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Dettol",
     description: "Dettol Fresh Pine Disinfectant Laundry Sanitiser kills 99.9% of germs and removes mildew and tough odors.",
-    price: "$10.50"
+    price: "10.50"
   });
 
   Household.insert({
@@ -2385,7 +2417,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Kiwi",
     description: "Kiwi Kleen Baby Fresh Easy Ironing provides effortless glide for ironing and smoothens out wrinkles on your clothes with its special silicone based and non-starch formula.",
-    price: "$3.50"
+    price: "3.50"
   });
 
   Household.insert({
@@ -2395,7 +2427,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Kiwi",
     description: "Kiwi Kleen Baby Fresh Easy Ironing provides effortless glide for ironing and smoothens out wrinkles on your clothes with its special silicone based and non-starch formula.",
-    price: "$3.50"
+    price: "3.50"
   });
 
   Household.insert({
@@ -2405,7 +2437,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Sofsil",
     description: "For softer, static-free and fresh & clean smelling clothes, Malodour Counteracters fight bad odours.",
-    price: "$6.25"
+    price: "6.25"
   });
 
   Household.insert({
@@ -2415,7 +2447,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Sofsil",
     description: "Kills 99.9% of Bacteria, makes clothes softer, more comfortable, static-free and easier to iron.",
-    price: "$6.25"
+    price: "6.25"
   });
 
   Household.insert({
@@ -2425,7 +2457,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Sofsil",
     description: "Revives the softness in your clothes, for less static and easier ironing, with a lasting fresh scent.",
-    price: "$6.25"
+    price: "6.25"
   });
 
   Household.insert({
@@ -2435,7 +2467,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Sofsil",
     description: "For softer, static-free and fresh & clean smelling clothes, Malodour Counteracters fight bad odours.",
-    price: "$2.50"
+    price: "2.50"
   });
 
   Household.insert({
@@ -2445,7 +2477,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Sofsil",
     description: "Kills 99.9% of Bacteria, makes clothes softer, more comfortable, static-free and easier to iron.",
-    price: "$2.50"
+    price: "2.50"
   });
 
   Household.insert({
@@ -2455,7 +2487,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Sofsil",
     description: "Revives the softness in your clothes, for less static and easier ironing, with a lasting fresh scent.",
-    price: "$2.50"
+    price: "2.50"
   });
 
   Household.insert({
@@ -2465,7 +2497,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Essence",
     description: "Essence Anti-Bacteria Delicate Laundry Detergent is a premium quality liquid detergent specially designed to care for your delicate clothes.",
-    price: "$9.50"
+    price: "9.50"
   });
 
   Household.insert({
@@ -2475,7 +2507,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Essence",
     description: "Essence Extracare Machine Wash Delicate Laundry Detergent is a premium quality liquid detergent specially designed to care for your delicate clothes.",
-    price: "$9.50"
+    price: "9.50"
   });
 
   Household.insert({
@@ -2485,7 +2517,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Essence",
     description: "Essence Extracare Machine Wash Delicate Laundry Detergent is a premium quality liquid detergent specially designed to care for your delicate clothes.",
-    price: "$9.50"
+    price: "9.50"
   });
 
   Household.insert({
@@ -2495,7 +2527,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Softlan",
     description: "Softlan Fabric Conditioner has a special Fabric Care treatment that protects your fibres by coating and nourishing them.",
-    price: "$8.25"
+    price: "8.25"
   });
 
   Household.insert({
@@ -2505,7 +2537,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Softlan",
     description: "Softlan Fabric Conditioner has a special Fabric Care treatment that protects your fibres by coating and nourishing them.",
-    price: "$8.25"
+    price: "8.25"
   });
 
   Household.insert({
@@ -2515,7 +2547,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Softlan",
     description: "Softlan Fabric Conditioner has a special Fabric Care treatment that protects your fibres by coating and nourishing them.",
-    price: "$8.25"
+    price: "8.25"
   });
 
   Household.insert({
@@ -2525,7 +2557,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Softlan",
     description: "Softlan Ultra Magic Moments is formulated with 100 -Percent more fragrance, provides a long lasting fragrance, just like a mother's never ending love.",
-    price: "$7.50"
+    price: "7.50"
   });
 
   Household.insert({
@@ -2535,7 +2567,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Softlan",
     description: "Dive in a swirl of happiness with Fruity Sensations and discover its elegant and delicate mix of red fruits with white floral accords.",
-    price: "$7.50"
+    price: "7.50"
   });
 
   Household.insert({
@@ -2545,7 +2577,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Softlan",
     description: "Its irresistble perfume with notes of magnolia and fruity passion fruit will take your sense into the heart of a tropical paradise.",
-    price: "$7.50"
+    price: "7.50"
   });
 
   Household.insert({
@@ -2555,7 +2587,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Softlan",
     description: "Its irresistible perfume with notes of sandalwood and floral will be an explosion of exotic freshness for your senses.",
-    price: "$7.50"
+    price: "7.50"
   });
 
   Household.insert({
@@ -2565,7 +2597,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Top",
     description: "Specially caters for front load washing machine users, seeking low suds formulation which provides advanced fabric care for their laundry.",
-    price: "$8.75"
+    price: "8.75"
   });
 
   Household.insert({
@@ -2575,7 +2607,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Top",
     description: "Eliminates 99.9% of bacteria and is formulated with Super Fast cleansing power to clean clothes 3 times faster.",
-    price: "$7.50"
+    price: "7.50"
   });
 
   Household.insert({
@@ -2585,7 +2617,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Top",
     description: "Top Super Colour Concentrated Liquid Detergent is formulated with Super Fast cleansing power to clean clothes 3 times faster.",
-    price: "$7.50"
+    price: "7.50"
   });
 
   Household.insert({
@@ -2595,7 +2627,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Top",
     description: "Top Super White Concentrated Liquid Detergent is formulated with Super Fast cleansing power to clean clothes 3 times faster.",
-    price: "$7.50"
+    price: "7.50"
   });
 
   Household.insert({
@@ -2605,7 +2637,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Comfort",
     description: "New Comfort Ultra Pure Concentrated Fabric Conditioner is specially formulated for delicate and sensitive skin.",
-    price: "$9.75"
+    price: "9.75"
   });
 
   Household.insert({
@@ -2615,7 +2647,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Comfort",
     description: "Comfort Ultra is so richly concentrated that you only need to use half a cap to give you soft, smooth clothes that feel great to wear.",
-    price: "$8.50"
+    price: "8.50"
   });
 
   Household.insert({
@@ -2625,7 +2657,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Comfort",
     description: "Comfort Ultra with amazing 5 in 1 benefits help keep clothes with longer lasting freshness, amazing softness, new for longer and shape retention.",
-    price: "$8.50"
+    price: "8.50"
   });
 
   Household.insert({
@@ -2635,7 +2667,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Comfort",
     description: "Introducing Comfort Ultra Aromatherapy, an exclusive range of fabric conditioners infused with 100% natural essential oils.",
-    price: "$9.75"
+    price: "9.75"
   });
 
   Household.insert({
@@ -2645,7 +2677,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Comfort",
     description: "Comfort Ultra is so richly concentrated that you only need to use half a cap to give you soft, smooth clothes that feel great to wear.",
-    price: "$8.50"
+    price: "8.50"
   });
 
   Household.insert({
@@ -2655,7 +2687,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Comfort",
     description: "Introducing Comfort Ultra Aromatherapy, an exclusive range of fabric conditioners infused with 100% natural essential oils.",
-    price: "$9.75"
+    price: "9.75"
   });
 
   Household.insert({
@@ -2665,7 +2697,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Comfort",
     description: "Introducing Comfort Ultra Aromatherapy, an exclusive range of fabric conditioners infused with 100% natural essential oils.",
-    price: "$9.75"
+    price: "9.75"
   });
 
   Household.insert({
@@ -2675,7 +2707,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Dynamo",
     description: "New dynamo power gel freshness of downy passion concentrated gel detergent 1.8 L.",
-    price: "$10.50"
+    price: "10.50"
   });
 
   Household.insert({
@@ -2685,7 +2717,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Dynamo",
     description: "New dynamo power gel concentrated gel detergent 2 L with improved cleaning power.",
-    price: "$10.50"
+    price: "10.50"
   });
 
   Household.insert({
@@ -2695,7 +2727,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Dynamo",
     description: "New dynamo power gel anti-bacterial concentrated gel detergent 1.8 L.",
-    price: "$10.50"
+    price: "10.50"
   });
 
   Household.insert({
@@ -2705,7 +2737,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Dynamo",
     description: "New dynamo power gel color care concentrated gel detergent 1.8 L.",
-    price: "$10.50"
+    price: "10.50"
   });
 
   Household.insert({
@@ -2715,7 +2747,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Fab",
     description: "Fab effectively removes multiple layers of dirt, leaving clothes clean and bright.",
-    price: "$5.50"
+    price: "5.50"
   });
 
   Household.insert({
@@ -2725,7 +2757,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Fab",
     description: "Use Fab Anti-bacterial Detergent for a brighter white.",
-    price: "$5.50"
+    price: "5.50"
   });
 
   Household.insert({
@@ -2735,7 +2767,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Fab",
     description: "Use Fab Perfect Detergent for a brighter white",
-    price: "$5.50"
+    price: "5.50"
   });
 
   Household.insert({
@@ -2745,7 +2777,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Fab",
     description: "Use Fab Lavender Detergent for a brighter white.",
-    price: "$5.50"
+    price: "5.50"
   });
 
   Household.insert({
@@ -2755,7 +2787,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Fab",
     description: "Use Fab Lavender Detergent for a brighter white.",
-    price: "$5.50"
+    price: "5.50"
   });
 
   Household.insert({
@@ -2765,7 +2797,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Clorox",
     description: "With Whitest Whites technology! Clorox Bleach kills flu virus and 99.9% of household germs.",
-    price: "$4.50"
+    price: "4.50"
   });
 
   Household.insert({
@@ -2775,7 +2807,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Clorox",
     description: "With Whitest Whites technology! Clorox Bleach kills flu virus and 99.9% of household germs.",
-    price: "$4.50"
+    price: "4.50"
   });
 
   Household.insert({
@@ -2785,7 +2817,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Breeze",
     description: "It penetrates into the fabric and leaves no residue, cleans in minutes, has a fresh fragrance, keeps colors bright, and is gentle on your hands.",
-    price: "$8.50"
+    price: "8.50"
   });
 
   Household.insert({
@@ -2795,7 +2827,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Breeze",
     description: "It penetrates into the fabric and leaves no residue, cleans in minutes, has a fresh fragrance, keeps colors bright, and is gentle on your hands.",
-    price: "$8.50"
+    price: "8.50"
   });
 
   Household.insert({
@@ -2805,7 +2837,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Breeze",
     description: "It penetrates into the fabric and leaves no residue, cleans in minutes, has a fresh fragrance, keeps colors bright, and is gentle on your hands.",
-    price: "$8.50"
+    price: "8.50"
   });
 
   Household.insert({
@@ -2815,7 +2847,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Breeze",
     description: "It penetrates into the fabric and leaves no residue, cleans in minutes, has a fresh fragrance, keeps colors bright, and is gentle on your hands.",
-    price: "$8.50"
+    price: "8.50"
   });
 
   Household.insert({
@@ -2825,7 +2857,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Tide",
     description: "Phosphate-free and made of biodegradable soaps, safe for septic systems and packaging is recyclable.",
-    price: "$12.50"
+    price: "12.50"
   });
 
   Household.insert({
@@ -2835,7 +2867,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Tide",
     description: "Tide Plus Febreze Sport is upgraded to deliver even better tough odor removal with a higher level of specially formulated cleaning ingredients.",
-    price: "$12.50"
+    price: "12.50"
   });
 
   Household.insert({
@@ -2845,7 +2877,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Tide",
     description: "Tide Stain Release works with your detergent to target and help remove fresh and dried stains, right in the wash.",
-    price: "$12.50"
+    price: "12.50"
   });
 
   Household.insert({
@@ -2855,7 +2887,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Tide",
     description: "Tide Plus Bleach Alternative delivers the amazing clean you expect from Tide and helps your fabrics look brighter and whiter after just one wash.",
-    price: "$12.50"
+    price: "12.50"
   });
 
   Household.insert({
@@ -2865,7 +2897,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Ariel",
     description: "Ariel Washing Liquid removes up to 95% of stains the 1st wash thanks to its innovative Pre treat cap.",
-    price: "$17.50"
+    price: "17.50"
   });
 
   Household.insert({
@@ -2875,7 +2907,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Ariel",
     description: "Brilliant cleaning and outstanding results at low temperatures. Cleans brilliantly at 15 degree as well as at 40 degree.",
-    price: "$17.50"
+    price: "17.50"
   });
 
   Household.insert({
@@ -2885,7 +2917,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Ariel",
     description: "Brilliant cleaning and outstanding results at low temperatures. Cleans brilliantly at 15°C as well as at 40°C.",
-    price: "$19.75"
+    price: "19.75"
   });
 
   Household.insert({
@@ -2895,7 +2927,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Ariel",
     description: "Brilliant cleaning and outstanding results at low temperatures. Cleans brilliantly at 15°C as well as at 40°C.",
-    price: "$19.75"
+    price: "19.75"
   });
 
   Household.insert({
@@ -2905,7 +2937,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Ariel",
     description: "Brilliant cleaning and outstanding results at low temperatures. Cleans brilliantly at 15°C as well as at 40°C.",
-    price: "$19.75"
+    price: "19.75"
   });
 
   Household.insert({
@@ -2915,7 +2947,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Topload Spin",
     description: "Topload Spin has an unbelievable 2 Times More Cleaning Power, with Advanced Oxygenated Technology to remove even the toughest stains.",
-    price: "$9.75"
+    price: "9.75"
   });
 
   Household.insert({
@@ -2925,7 +2957,7 @@ if (Household.find().count() === 0) {
     type: "Laundry",
     brand: "Topload Spin",
     description: "Topload Spin has an unbelievable 2 Times More Cleaning Power, with Advanced Oxygenated Technology to remove even the toughest stains.",
-    price: "$9.75"
+    price: "9.75"
   });
 }
 
@@ -2936,7 +2968,7 @@ if (Meat_Seafood.find().count() === 0) {
     weight: "500 g",
     type: "Meat",
     description: "A leading poultry producer in Singapore and Malaysia today, Kee Song's poultry products are processed locally for optimum freshness.",
-    price: "$6.25"
+    price: "6.25"
   });
 
   Meat_Seafood.insert({
@@ -2945,7 +2977,7 @@ if (Meat_Seafood.find().count() === 0) {
     weight: "470 g",
     type: "Seafood",
     description: "Flown in fresh from Norway daily, these Salmon have an undeniable natural rich flavour to them.",
-    price: "$16.50"
+    price: "16.50"
   });
 
   Meat_Seafood.insert({
@@ -2954,7 +2986,7 @@ if (Meat_Seafood.find().count() === 0) {
     weight: "500 g",
     type: "Meat",
     description: "These Pets are raised on lush green pastures with sustainable farming practices.",
-    price: "$12.50"
+    price: "12.50"
   });
 
   Meat_Seafood.insert({
@@ -2963,7 +2995,7 @@ if (Meat_Seafood.find().count() === 0) {
     weight: "500 g",
     type: "Seafood",
     description: "You can easily identify a Sole Fish not only by its flat appearance, but by its skin. It is black on one side and white on the other.",
-    price: "$9.50"
+    price: "9.50"
   });
 
   Meat_Seafood.insert({
@@ -2972,7 +3004,7 @@ if (Meat_Seafood.find().count() === 0) {
     weight: "500 g",
     type: "Meat",
     description: "Premium quality selected chicken which is good with any form of cooking. Halal certified.",
-    price: "$6.75"
+    price: "6.75"
   });
 
   Meat_Seafood.insert({
@@ -2981,7 +3013,7 @@ if (Meat_Seafood.find().count() === 0) {
     weight: "480 g",
     type: "Seafood",
     description: "Seabass, otherwise also known as Barramundi, is actually one of the fishes that is most farmed in Southeast Asia.",
-    price: "$12.50"
+    price: "12.50"
   });
 
   Meat_Seafood.insert({
@@ -2990,7 +3022,7 @@ if (Meat_Seafood.find().count() === 0) {
     weight: "500 g",
     type: "Meat",
     description: "Pork mince can be used to make meatloaf, burger patties and dumplings.",
-    price: "$7.00"
+    price: "7.00"
   });
 
   Meat_Seafood.insert({
@@ -2999,7 +3031,7 @@ if (Meat_Seafood.find().count() === 0) {
     weight: "450 g",
     type: "Seafood",
     description: "The tastiest part of the Salmon is undeniably the Salmon belly - luscious, nutritious and savoury.",
-    price: "$16.50"
+    price: "16.50"
   });
 
   Meat_Seafood.insert({
@@ -3008,7 +3040,7 @@ if (Meat_Seafood.find().count() === 0) {
     weight: "500 g",
     type: "Meat",
     description: "Premium quality selected chicken which is good with any form of cooking.",
-    price: "$4.50"
+    price: "4.50"
   });
 
   Meat_Seafood.insert({
@@ -3017,7 +3049,7 @@ if (Meat_Seafood.find().count() === 0) {
     weight: "400 g",
     type: "Seafood",
     description: "Economical and easy to cook, grey prawns can be found in many dishes of diverse cuisines.",
-    price: "$11.00"
+    price: "11.00"
   });
 
   Meat_Seafood.insert({
@@ -3026,7 +3058,7 @@ if (Meat_Seafood.find().count() === 0) {
     weight: "500 g",
     type: "Meat",
     description: "Premium quality selected chicken which is good with any form of cooking.",
-    price: "$5.00"
+    price: "5.00"
   });
 
   Meat_Seafood.insert({
@@ -3035,7 +3067,7 @@ if (Meat_Seafood.find().count() === 0) {
     weight: "520 g",
     type: "Seafood",
     description: "Firm, sweet and textured flesh. There are many varieties of snapper, all found in warm waters, but there is only one true red snapper.",
-    price: "$8.50"
+    price: "8.50"
   });
 
   Meat_Seafood.insert({
@@ -3044,7 +3076,7 @@ if (Meat_Seafood.find().count() === 0) {
     weight: "500 g",
     type: "Meat",
     description: "Top grade fresh boneless chicken legs.These chickens are raised without any antibiotics or hormones and are halal certified.",
-    price: "$4.50"
+    price: "4.50"
   });
 
   Meat_Seafood.insert({
@@ -3053,7 +3085,7 @@ if (Meat_Seafood.find().count() === 0) {
     weight: "470 g",
     type: "Seafood",
     description: "Spanish Mackerels have dark meat and are one of the tastiest within the Mackerel family.",
-    price: "$9.50"
+    price: "9.50"
   });
 
   Meat_Seafood.insert({
@@ -3062,7 +3094,7 @@ if (Meat_Seafood.find().count() === 0) {
     weight: "500 g",
     type: "Meat",
     description: "Premium quality selected chicken which is good with any form of cooking.",
-    price: "$5.00"
+    price: "5.00"
   });
 
   Meat_Seafood.insert({
@@ -3071,7 +3103,7 @@ if (Meat_Seafood.find().count() === 0) {
     weight: "380 g",
     type: "Seafood",
     description: "As its name suggests, tiger prawns are easily identifiable by their iconic stripes. Its meat is slightly crunchier than other regular prawns.",
-    price: "$7.50"
+    price: "7.50"
   });
 
   Meat_Seafood.insert({
@@ -3080,7 +3112,7 @@ if (Meat_Seafood.find().count() === 0) {
     weight: "500 g",
     type: "Meat",
     description: "Top grade fresh mid joint chicken wings. These chickens are raised without any antibiotics or hormones and are halal certified.",
-    price: "$4.75"
+    price: "4.75"
   });
 
   Meat_Seafood.insert({
@@ -3089,7 +3121,7 @@ if (Meat_Seafood.find().count() === 0) {
     weight: "400 g",
     type: "Seafood",
     description: "These squids are freshly caught from the east coast of Malaysia and their meat have a springy bite to them.",
-    price: "$8.00"
+    price: "8.00"
   });
 
   Meat_Seafood.insert({
@@ -3098,7 +3130,7 @@ if (Meat_Seafood.find().count() === 0) {
     weight: "1.5 kg",
     type: "Meat",
     description: "Premium quality selected chicken which is good with any form of cooking.",
-    price: "$7.00"
+    price: "7.00"
   });
 
   Meat_Seafood.insert({
@@ -3107,7 +3139,7 @@ if (Meat_Seafood.find().count() === 0) {
     weight: "400 g",
     type: "Seafood",
     description: "The Chinese Pomfret is a ubiquitous fish, especially in Chinese restaurants. Its meat is soft and remarkably sweet.",
-    price: "$14.50"
+    price: "14.50"
   });
 
   Meat_Seafood.insert({
@@ -3116,7 +3148,7 @@ if (Meat_Seafood.find().count() === 0) {
     weight: "500 g",
     type: "Meat",
     description: "Pork spare ribs are a long cut from the lower portion of the pig, specifically the belly and breastbone, behind the shoulder, and include 11 to 13 long bones.",
-    price: "$9.50"
+    price: "9.50"
   });
 
   Meat_Seafood.insert({
@@ -3125,7 +3157,7 @@ if (Meat_Seafood.find().count() === 0) {
     weight: "480 g",
     type: "Seafood",
     description: "The Toman fish presents itself as an affordable yet delicious seafood dish in the Chinese culinary realm.",
-    price: "$9.25"
+    price: "9.25"
   });
 
   Meat_Seafood.insert({
@@ -3134,7 +3166,7 @@ if (Meat_Seafood.find().count() === 0) {
     weight: "500 g",
     type: "Meat",
     description: "Premium quality selected chicken which is good with any form of cooking. Halal certified.",
-    price: "$5.50"
+    price: "5.50"
   });
 
   Meat_Seafood.insert({
@@ -3143,7 +3175,7 @@ if (Meat_Seafood.find().count() === 0) {
     weight: "400 g",
     type: "Seafood",
     description: "Commonly mistaken to be known as Cod, this deep sea species from France is the real deal. Large flaky meat that turns an elegant pearl-white when cooked.",
-    price: "$19.95"
+    price: "19.95"
   });
 
   Meat_Seafood.insert({
@@ -3152,7 +3184,7 @@ if (Meat_Seafood.find().count() === 0) {
     weight: "400 g",
     type: "Meat",
     description: "Pork chops are suitable for roasting, grilling, or frying, but there are also stuffed pork chop recipes.",
-    price: "$8.75"
+    price: "8.75"
   });
 
   Meat_Seafood.insert({
@@ -3161,7 +3193,7 @@ if (Meat_Seafood.find().count() === 0) {
     weight: "500 g",
     type: "Seafood",
     description: "Lean white meat high in protein. Perfect for stews and stir-fry! We slice it up so that you don't have to.",
-    price: "$6.25"
+    price: "6.25"
   });
 
   Meat_Seafood.insert({
@@ -3170,7 +3202,7 @@ if (Meat_Seafood.find().count() === 0) {
     weight: "500 g",
     type: "Meat",
     description: "These Pets are raised on lush green pastures with sustainable farming practices.",
-    price: "$14.50"
+    price: "14.50"
   });
 
   Meat_Seafood.insert({
@@ -3179,7 +3211,7 @@ if (Meat_Seafood.find().count() === 0) {
     weight: "400 g",
     type: "Seafood",
     description: "Fish head curry anyone? Juicy meat to be paired with your favorite braise recipe. Dig in..",
-    price: "$9.50"
+    price: "9.50"
   });
 
   Meat_Seafood.insert({
@@ -3188,7 +3220,7 @@ if (Meat_Seafood.find().count() === 0) {
     weight: "500 g",
     type: "Meat",
     description: "Premium quality selected chicken which is good with any form of cooking. Halal certified.",
-    price: "$4.50"
+    price: "4.50"
   });
 
   Meat_Seafood.insert({
@@ -3197,7 +3229,7 @@ if (Meat_Seafood.find().count() === 0) {
     weight: "400 g",
     type: "Seafood",
     description: "As a staple protein in many kitchens, we sliced this fillet up for your convenience to enjoy any day, any time..",
-    price: "$14.25"
+    price: "14.25"
   });
 }
 
@@ -3206,135 +3238,150 @@ if (Pets.find().count() === 0) {
     _id: "pets_001",
     name: "Purina Cat Chow Indoor Cat Food",
     brand: "Purina",
+    quantity: "22 lb",
     animal_type: "Cat",
-    description: "With improved taste, Purina Cat Chow Indoor provides 100% complete & balanced nutrition for adult cats. Its a dry cat food for everyday feeding, formulated to suit an indoor adult cats life. Every meal gives them the 25 essential vitamins and minerals they need, as well as the right number of calories and a special fiber blend to help control hairballs.",
-    price: "$14.50"
+    description: "With improved taste, Purina Cat Chow Indoor provides 100% complete & balanced nutrition for adult cats. Its a dry cat food for everyday feeding, formulated to suit an indoor adult cats life. Every meal gives them the 25 essential vitamins and minerals they need.",
+    price: "14.50"
   });
 
   Pets.insert({
     _id: "pets_002",
     name: "PEDIGREE Adult Chicken Flavor Dry Dog Food",
     brand: "Pedigree",
+    quantity: "50 lb",
     animal_type: "Dog",
     description: "PEDIGREE Adult Roasted Chicken, Rice & Vegetable Flavor Dry Dog Food is formulated to give dogs all of the energy and nourishment they need to continue living life to the fullest.",
-    price: "$17.00"
+    price: "17.00"
   });
 
   Pets.insert({
     _id: "pets_003",
     name: "Miller Manufacturing Rabbit Water Bottle",
     brand: "Little Giant Farm & Ag",
+    quantity: "32 oz",
     animal_type: "Rabbit",
     description: "This rabbit water bottle features a stainless steel ballpoint tube for longevity over extended use. Clear, 32-Oz.",
-    price: "$4.25"
+    price: "4.25"
   });
 
   Pets.insert({
     _id: "pets_004",
     name: "Purina Dog Chow Complete Dog Food Bonus Size",
     brand: "Purina",
+    quantity: "50 lb",
     animal_type: "Dog",
     description: "Purina Complete dog food features an impressive nutritional profile that contains everything your canine friend needs to stay happy, healthy and strong.",
-    price: "$20.00"
+    price: "20.00"
   });
 
   Pets.insert({
     _id: "pets_005",
     name: "Pet Champion Pet Crate",
     brand: "Pet Champion",
+    quantity: "58.4 cm x 38.1 cm x 30.5 cm",
     animal_type: "Dog",
     description: "The Pet Champion small pet carrier is the perfect way to travel with comfort and safety for your pet. 1'3''width x 1'11''depth x 12''height, Brown/Black.",
-    price: "$22.50"
+    price: "22.50"
   });
 
   Pets.insert({
     _id: "pets_006",
     name: "Meow Mix Original Choice Cat Food",
     brand: "Meow Mix",
+    quantity: "30 lb",
     animal_type: "Cat",
     description: "This bag gives your feline friend a wide variety of flavors in one package. Cats will enjoy the delicious taste of chicken, turkey, salmon and ocean fish for every meal.",
-    price: "$18.50"
+    price: "18.50"
   });
 
   Pets.insert({
     _id: "pets_007",
     name: "Franklin Textured Soft Microfiber Cuddler Bed",
     brand: "Paws and Claws",
+    quantity: "63.5 cm x 58.42 cm x 25.4 cm",
     animal_type: "Dog",
     description: "Franklin Textured Soft Microfiber Cuddler Bed it is made with plush fabrics and features a cushioned sleep area with a durable exterior in a coordinating shade.",
-    price: "$15.00"
+    price: "15.00"
   });
 
   Pets.insert({
     _id: "pets_008",
     name: "Aqua Culture Semi-Hex Aquarium Kit",
     brand: "Aqua Culture",
+    quantity: "6.5 gal",
     animal_type: "Fish",
     description: "The 6.5-gal capacity of this Aqua Culture aquarium kit makes it ideal for smaller fish, such as guppies, tetra or beta.",
-    price: "$40.00"
+    price: "40.00"
   });
 
   Pets.insert({
     _id: "pets_009",
-    name: "Flexi 2-5 16' Medium Retractable Lead",
+    name: "Flexi 2-5 Medium Retractable Lead",
     brand: "Flexi",
+    quantity: "5 m (16')",
     animal_type: "Dog",
     description: "Count on Flexi to bring you only the best in pet supplies. Comfortable one hand breaking system. For medium dogs up to 44 lbs.",
-    price: "$7.50"
+    price: "7.50"
   });
 
   Pets.insert({
     _id: "pets_010",
     name: "Tetrafauna Reptomin Floating Food Sticks",
     brand: "Tetra",
+    quantity: "105 g",
     animal_type: "Reptiles",
     description: "Reptomin Floating Food Sticks are a highly nutritious diet for all aquatic turtles, newts, and frogs.",
-    price: "$3.75"
+    price: "3.75"
   });
 
   Pets.insert({
     _id: "pets_011",
     name: "Soft Dot Pattern Removable Plush Pet Dog Bed",
     brand: "Unique Bargains",
+    quantity: "39.9 cm x 38.1 cm",
     animal_type: "Dog",
     description: "Size S: 15.7'' x 15'' (L*W); Fits Dog Weight: Less than 25 lbs; Material: Plush; Luxurious comfort; Warm soft pet bed doghouse cushion.",
-    price: "$12.00"
+    price: "12.00"
   });
 
   Pets.insert({
     _id: "pets_012",
     name: "Purina Fancy Feast Classic Seafood Feast Variety Cat Food",
     brand: "Purina",
+    quantity: "30 x 85 g",
     animal_type: "Cat",
     description: "Finely ground and delightfully smooth, like pate. Contains: Cod, Sole & Shrimp Feast, Savory Salmon Feast in Gravy, Ocean Whitefish & Tuna Feast in Gravy.",
-    price: "$12.50"
+    price: "12.50"
   });
 
   Pets.insert({
     _id: "pets_013",
     name: "Kaytee Supreme Food for Rabbit",
     brand: "Kaytee Products Inc.",
+    quantity: "10 lb",
     animal_type: "Rabbit",
     description: "Kaytee Supreme Food for Rabbit, 10-Pound Multi-Colored is a clean, wholesome, high-quality mix that contains all of the natural protein, fiber, oils and nutrients of whole grains.",
-    price: "$11.50"
+    price: "11.50"
   });
 
   Pets.insert({
     _id: "pets_014",
     name: "3-D Pet Products Premium Cockatiel Food",
     brand: "3-D Pet Products",
+    quantity: "4.5 lb",
     animal_type: "Bird",
     description: "3-D Pet Products Premium Cockatiel Food will keep your cockatiel looking and feeling healthy. Comes in a 5-lb container with an easy twist-off lid.",
-    price: "$4.25"
+    price: "4.25"
   });
 
   Pets.insert({
     _id: "pets_015",
     name: "CESAR Canine Cuisine Club Variety Pack Dog Food",
     brand: "Cesar",
+    quantity: "24 x 100 g",
     animal_type: "Dog",
     description: "Dogs with sophisticated palates will enjoy a rich culinary experience with CESAR Canine Cuisine Gourmet Wet Dog Food in meaty juices or in sauce.",
-    price: "$17.25"
+    price: "17.25"
   });
 }
 

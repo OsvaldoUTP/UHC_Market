@@ -308,7 +308,7 @@ a{ /*Animales, Bebés, Alcohol, etc*/
 }
 
 /* Default State */
-.container_signupbar {
+.container_signUpBar {
    background-color: #333;
    top : 60px;
    width: 100%;
@@ -318,11 +318,12 @@ a{ /*Animales, Bebés, Alcohol, etc*/
    position: absolute;
    transition: height 0.5s;
    z-index: 100;
+   /*overflow: hidden;*/
 }
 
 /* Toggled State */
-.container_signupbar-show  {
-   top : 60px;
+.container_signUpBar-show {
+   top: 60px;
    width: 100%;
    color: white;
    text-align: center;
@@ -330,10 +331,19 @@ a{ /*Animales, Bebés, Alcohol, etc*/
    /*background: -moz-linear-gradient(top,#333 0,#444 90%,#333 100%);*/
    background-color: #333;
    transition: height 1s;
-   height: 310px;
+   height: 200px;
    visibility: visible;
    z-index: 100;
 }
+
+.form_container_register, .form_container_login{
+  color: #000000;
+}
+
+/*.container_register{
+  overflow: hidden;
+}*/
+
 /* ---------------------------------- */
 
 /* ----------Margen de los template Dinamicos-------------- */
@@ -381,3 +391,30 @@ a{ /*Animales, Bebés, Alcohol, etc*/
 .promo-footer:hover{
   color: #000000;
 }
+
+/*propiedades de la tabla del cart*/
+
+.cart_title{
+  margin: 0.5em 0.5em;
+  text-align: center;
+}
+
+.products > h2{
+  margin: 0.5em 0.5em;
+}
+
+.category-credit{
+  margin: 1em 1em;
+}
+
+.total_pay{
+  margin: 2em 1em 1em;
+}
+
+.unregistered_pay, .registered_pay{
+  margin: 1em 1em;
+}
+
+/*.category-credit{
+  margin: 1em 1em;
+}*/

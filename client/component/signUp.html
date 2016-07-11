@@ -1,0 +1,27 @@
+<template name="signUp">
+  <h2>Sign Up</h2>
+  <form>
+    <div class="form_container_register">
+      <input type="email" name="signUpEmail" placeholder="Email" required>
+      <input type="password" name="signUpPassword" placeholder="Password" required>
+      <input type="submit" value="Sign Up">
+    </div>
+  </form>
+</template>
+
+<template name="login">
+  <h2>Log In</h2>
+  <form>
+    <div class="form_container_login">
+      <input type="email" name="loginEmail" placeholder="Email">
+      <input type="password" name="loginPassword" placeholder="Password">
+      <input type="submit" value="Login">
+    </div>
+  </form>
+</template>
+
+<template name="settings">
+  <p>You're logged in!</p>
+  <p>{{send_c}}</p>
+  <p><a href="#" class="logout">Logout</a></p>
+</template>

@@ -3,16 +3,35 @@ import { ReactiVar } from 'meteor/reactive-var';
 import { Template } from 'meteor/templating';
 
 Template.navbar.events({
-	'click .js-show-login' : function(){
+	'click .js-show-signUp' : function(){
 		event.preventDefault();
-    let element = $('.js-container_signupbar');
-    if(element.hasClass('container_signupbar-show')){
-      element.removeClass('container_signupbar-show');
-      element.addClass('container_signupbar');
-    }
-    else {
-      element.removeClass('container_signupbar');
-      element.addClass('container_signupbar-show');
-    }
+		let element = $('.js-container_signUpBar');
+		if (element.hasClass('container_signUpBar-show')) {
+			element.removeClass('container_signUpBar-show');
+			element.addClass('container_signUpBar');
+			document.getElementById('container_register').style.display = 'none';
+		}
+		else {
+			element.removeClass('container_signUpBar');
+			element.addClass('container_signUpBar-show');
+			document.getElementById('container_register').style.display = 'block';
+		}
+	}
+});
+
+Template.navbar.events({
+	'click .js-show-login': function() {
+		event.preventDefault();
+		let element = $('.js-container_signUpBar');
+		if (element.hasClass('container_signUpBar-show')) {
+			element.removeClass('container_signUpBar-show');
+			element.addClass('container_signUpBar');
+			document.getElementById('container_login').style.display = 'none';
+		}
+		else {
+			element.removeClass('container_signUpBar');
+			element.addClass('container_signUpBar-show');
+			document.getElementById('container_login').style.display = 'block';
+		}
 	}
 });
